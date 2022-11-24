@@ -13,7 +13,7 @@ const CLASSES = [
 
 const typescript = JSON.parse(
   fs.readFileSync(
-    `${process.cwd()}/submodules/js/packages/sdk/docs/solana/snippets.json`,
+    `${process.cwd()}/submodules/web3/packages/sdk/docs/solana/snippets.json`,
     "utf8",
   ),
 );

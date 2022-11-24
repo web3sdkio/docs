@@ -152,7 +152,7 @@ async function makeDocs({ outDir, inDir, readmePath, migrationGuidePath }) {
   await generate();
 }
 
-const packageRoot = "./submodules/js/packages/react";
+const packageRoot = "./submodules/web3/packages/react";
 
 async function main() {
   await makeDocs({

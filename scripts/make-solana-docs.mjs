@@ -5,7 +5,7 @@ import fs from "fs-extra";
 const { readdir, createReadStream, writeFile, readFile } = fs;
 
 const outDir = "./docs/solana";
-const packageRoot = "./submodules/js/packages/sdk";
+const packageRoot = "./submodules/web3/packages/sdk";
 const inDir = packageRoot + "/docs/solana";
 const readmePath = packageRoot + "/README.solana.md";
 

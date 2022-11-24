@@ -32,14 +32,14 @@ const CLASSES = [
 
 const typescript = JSON.parse(
   fs.readFileSync(
-    `${process.cwd()}/submodules/js/packages/sdk/docs/evm/snippets.json`,
+    `${process.cwd()}/submodules/web3/packages/sdk/docs/evm/snippets.json`,
     "utf8",
   ),
 );
 
 const react = JSON.parse(
   fs.readFileSync(
-    `${process.cwd()}/submodules/js/packages/react/docs/evm/snippets.json`,
+    `${process.cwd()}/submodules/web3/packages/react/docs/evm/snippets.json`,
     "utf8",
   ),
 );
@@ -241,7 +241,7 @@ fs.writeFileSync(
 fs.writeFileSync(
   `${process.cwd()}/docs/feature_snippets_sdk.json`,
   fs.readFileSync(
-    `${process.cwd()}/submodules/js/packages/sdk/docs/evm/feature_snippets.json`,
+    `${process.cwd()}/submodules/web3/packages/sdk/docs/evm/feature_snippets.json`,
     "utf8",
   ),
 );
@@ -250,7 +250,7 @@ fs.writeFileSync(
 fs.writeFileSync(
   `${process.cwd()}/docs/feature_snippets_react.json`,
   fs.readFileSync(
-    `${process.cwd()}/submodules/js/packages/react/docs/evm/feature_snippets.json`,
+    `${process.cwd()}/submodules/web3/packages/react/docs/evm/feature_snippets.json`,
     "utf8",
   ),
 );

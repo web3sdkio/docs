@@ -5,7 +5,7 @@ import fs from "fs-extra";
 const { readdir, createReadStream, writeFile, readFile } = fs;
 
 const outDir = "./docs/storage";
-const packageRoot = "./submodules/js/packages/storage";
+const packageRoot = "./submodules/web3/packages/storage";
 const inDir = packageRoot + "/docs";
 const readmePath = packageRoot + "/README.md";
 
