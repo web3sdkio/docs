@@ -1,0 +1,47 @@
+---
+slug: /templates/marketplace/creating-the-marketplace-contract
+---
+
+import Web3sdkioCodeSnippet from "../../../../src/components/Web3sdkioCodeSnippet";
+
+# Creating a Marketplace Contract
+
+In this section, we'll show how to:
+
+- Create the marketplace contract that will be used to store our listings
+- Configure the metadata such as the name, image, description, and fees of the Marketplace.
+
+To create a [Marketplace](https://portal.web3sdk.io/pre-built-contracts/marketplace) contract,
+head to the [dashboard](https://web3sdk.io/dashboard) and connect your wallet.
+
+Then click on the **Deploy New Contract** button.
+
+![Create a new contract](../assets/create-new-contract.png)
+
+Select **Marketplace** from the list of contracts and click **Deploy Now**.
+
+Before deploying it, you can configure the contract's **Name**, **Symbol**, and **Description**.
+
+Once you're happy, let's deploy this Marketplace onto the Mumbai (MATIC) Test network.
+
+![Deploy marketplace onto mumbai](../assets/deploy-onto-mumbai.png)
+
+This will prompt you to accept a transaction in MetaMask (or whatever wallet you connected with),
+and deploy your smart contract onto the Mumbai Test network!
+
+You might notice that the transaction requests to Deploy a **Proxy**.
+
+If you want to learn more about proxy contracts, check out our documentation on
+[How web3sdkio prebuilt contracts work](https://portal.web3sdk.io/pre-built-contracts#how-web3sdkio-pre-built-contracts-work).
+
+Now we're ready to upload some listings to our Marketplace contract.
+
+## Bonus Tip: SDK Deployments
+
+You can do everything we just did in code using the SDK too!
+
+<Web3sdkioCodeSnippet
+  contract={"ContractDeployer"}
+  name={"deployMarketplace"}
+  showHr={false}
+/>

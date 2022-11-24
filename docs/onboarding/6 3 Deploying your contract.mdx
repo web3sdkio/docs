@@ -1,0 +1,84 @@
+---
+slug: /deploy
+title: Deploy
+---
+
+import YoutubeEmbed from "@components/YoutubeEmbed";
+import QuickstartCard from "@components/QuickstartCard";
+
+# Deploy
+
+<div className="heroGrid">
+<div>
+
+<p>
+  Use the <a href="https://portal.web3sdk.io/cli">CLI</a> to ship your
+  contracts directly to any of our{" "}
+  <a href="https://blog.web3sdk.io/guides/which-network-should-you-use/">
+    {" "}
+    supported networks
+  </a>{" "}
+  using the <a href="https://web3sdk.io/dashboard">dashboard</a>.
+</p>
+
+```bash
+npx web3sdkio deploy
+```
+
+</div>
+
+<div className="heroGridImageContainer">
+  <YoutubeEmbed link={"https://www.youtube.com/embed/6EqumMCa-E8"} />
+</div>
+</div>
+
+Running this command will:
+
+- **Compile** all the contracts in the current directory.
+- Allow you to select which contract(s) you want to deploy.
+- Upload your contract source code (ABI) to IPFS.
+- Open the deploy flow in the [dashboard](https://web3sdk.io/dashboard) for you to select one of
+  our [supported networks](https://blog.web3sdk.io/guides/which-network-should-you-use) to deploy to.
+
+<div className="row" style={{ marginBottom: 24 }}>
+  <div className="col col--12" style={{ padding: 8 }}>
+    <QuickstartCard
+      name="Guide: Deploy A Smart Contract Using The CLI"
+      description="Learn how to deploy any smart contract to one of our supported networks in one command."
+      link="https://blog.web3sdk.io/guides/how-to-deploy-any-smart-contract-using-web3sdkio-cli/"
+      image="/assets/icons/education.png"
+    />
+  </div>
+</div>
+
+## Released Contracts
+
+Deploy a contract that has been [released](/release) by passing the author and name of the contract in the form:
+
+[`<author-address>/<contract-name>`](https://web3sdk.io/dashboard/doubledev.eth/ERC4907)
+
+```bash
+npx web3sdkio deploy --name doubledev.eth/ERC4907
+```
+
+## Prebuilt Contracts
+
+Deploy one of our [prebuilt contracts](/pre-built-contracts) by providing the `--name` option.
+
+```bash
+npx web3sdkio deploy --name signature-drop
+```
+
+## Upgradeable Contracts
+
+We support deploying upgradeable contracts and the use of proxy contracts.
+
+<div className="row" style={{ marginBottom: 24, flexWrap: "wrap" }}>
+  <div className="col col--12" style={{ padding: 8 }}>
+    <QuickstartCard
+      name="Guide: Create & Deploy An Upgradeable Smart Contract"
+      link="https://blog.web3sdk.io/guides/how-to-upgrade-smart-contracts-upgradeable-smart-contracts/"
+      image="/assets/icons/education.png"
+    />
+  </div>
+</div>

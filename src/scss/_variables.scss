@@ -1,0 +1,137 @@
+:root {
+  --web3sdkio-primary-color: #9045fe;
+  --web3sdkio-secondary-color: #5204bf;
+  --web3sdkio-tertiary-color: #55c0f9;
+  --web3sdkio-gradient: linear-gradient(86.62deg, #c643f4 0%, #8b43f4 82.93%);
+  --web3sdkio-gradient-text-color: #fff;
+  --web3sdkio-text-color: rgba(0, 0, 0, 0.8);
+  --web3sdkio-body-text-color: #000;
+  --web3sdkio-text-secondary-color: #82857c;
+  --web3sdkio-background-color: #ffffff;
+  --web3sdkio-border-color: #e2e3dc;
+  --web3sdkio-menu-border-color: rgba(0, 0, 0, 0.1);
+  --web3sdkio-menu-selected-background-color: rgba(0, 0, 0, 0.05);
+  --web3sdkio-border-radius: 10px;
+
+  // Active menu item background color
+  --ifm-menu-color-background-active: var(
+    --web3sdkio-menu-selected-background-color
+  );
+
+  // Menu icon
+  --ifm-menu-link-sublist-icon: url("../../static/assets/sublist-icon.svg");
+
+  --ifm-line-height-base: 1.6;
+  --ifm-color-primary: var(--web3sdkio-primary-color);
+  --ifm-font-family-base: Inter, system-ui, -apple-system, Segoe UI, Roboto,
+    Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --ifm-font-family-monospace: "Fira Sans", SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
+  --ifm-global-shadow-lw: none;
+  --ifm-global-shadow-md: none;
+  --ifm-global-shadow-tl: none;
+  --ifm-menu-link-padding-horizontal: 1.5rem;
+  --ifm-menu-link-padding-vertical: 0.5rem;
+  --ifm-background-color: var(--web3sdkio-background-color);
+  --ifm-pre-padding: 1rem;
+  --ifm-paragraph-margin-bottom: 1rem;
+  --ifm-toc-border-color: var(--web3sdkio-border-color);
+  --ifm-footer-background-color: white;
+  --ifm-global-radius: 10px;
+  // --ifm-spacing-horizontal: 0.5rem;
+  --ifm-hr-border-color: var(--web3sdkio-border-color);
+  --ifm-footer-padding-vertical: 5rem;
+  --ifm-navbar-padding-horizontal: 1.5rem;
+  --ifm-navbar-background-color: var(--web3sdkio-background-color);
+
+  --ifm-hover-overlay: rgba(82, 4, 191, 0.05);
+
+  --ifm-toc-link-color: var(--web3sdkio-text-color);
+
+  --ifm-alert-padding-horizontal: 1.5rem;
+  --ifm-color-secondary-contrast-background: #f8f9fb;
+
+  --docusaurus-btt-background: var(--web3sdkio-primary-color);
+  --docusaurus-btt-color: var(--web3sdkio-background-color);
+
+  --ifm-menu-color: var(--web3sdkio-text-color);
+
+  --docusaurus-tag-list-border: var(--web3sdkio-border-color);
+
+  --ifm-background-surface-color: #f5f6f8;
+}
+
+/// ---
+
+:root {
+  --web3sdkio-primary-color: #9045fe;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme="dark"] {
+  --web3sdkio-primary-color: #c29afe;
+
+  --web3sdkio-gradient: linear-gradient(
+    83.27deg,
+    #c29afe 17.16%,
+    #fe9aee 99.87%
+  );
+
+  --web3sdkio-gradient-text-color: #000;
+  --web3sdkio-body-text-color: #fff;
+
+  --web3sdkio-menu-border-color: rgba(255, 255, 255, 0.1);
+  --web3sdkio-text-color: rgba(255, 255, 255, 0.8);
+  --web3sdkio-menu-selected-background-color: rgba(255, 255, 255, 0.05);
+  --ifm-menu-link-sublist-icon: url("../../static/assets/sublist-icon-dark.svg");
+
+  --ifm-menu-color: var(--web3sdkio-text-color);
+
+  --web3sdkio-text-secondary-color: #979993;
+
+  --web3sdkio-background-color: #0f1318;
+  --web3sdkio-surface-color: #1b2129;
+  --web3sdkio-border-color: #242424;
+  --ifm-code-background: #1d1d1d;
+
+  --ifm-hover-overlay: rgba(168, 85, 247, 0.05);
+  --ifm-background-color: var(--web3sdkio-background-color);
+
+  --ifm-color-success-contrast-background: rgba(168, 85, 247, 0.05);
+  --ifm-color-info-contrast-background: rgba(0, 178, 255, 0.1);
+  --ifm-color-secondary-contrast-background: rgba(255, 255, 255, 0.05);
+  --ifm-color-success-dark: var(--web3sdkio-primary-color);
+  --ifm-color-info-dark: rgba(122, 217, 252, 1);
+
+  --docusaurus-btt-background: var(--web3sdkio-primary-color);
+  --docusaurus-btt-color: var(--web3sdkio-background-color);
+
+  --ifm-menu-color: var(--web3sdkio-text-color);
+
+  --ifm-background-surface-color: #1c2128;
+}
+
+.markdown {
+  --ifm-h2-vertical-rhythm-top: 3;
+  --ifm-h3-vertical-rhythm-top: 3;
+}
+
+@media (max-width: 997px) {
+  :root {
+    --ifm-spacing-horizontal: 1rem;
+    --ifm-navbar-padding-horizontal: 1rem;
+  }
+
+  .searchBox_node_modules-\@docusaurus-theme-classic-lib-next-theme-Navbar-Search-styles-module {
+    position: inherit !important;
+    margin-top: 24px !important;
+  }
+}
+
+@media (min-width: 996px) {
+  :root {
+    --ifm-navbar-height: 100px;
+  }
+}

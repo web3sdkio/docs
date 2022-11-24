@@ -1,0 +1,138 @@
+---
+slug: /sdk/advanced-features/contract-settings
+---
+
+import Web3sdkioFeatureCodeSnippet from "@components/Web3sdkioFeatureCodeSnippet";
+
+# Contract Settings
+
+Configure the settings of your smart contract.
+
+## Contract Metadata
+
+Read, write, and update the metadata of a smart contract using the SDK,
+such as the name, description and image.
+
+### Read
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"ContractMetadata"}
+  languageFunctionMapping={{
+    javascript: "get",
+    react: "useContractMetadata",
+  }}
+/>
+
+### Write (Overwrite)
+
+:::warning
+This will **overwrite** the existing metadata.
+:::
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"ContractMetadata"}
+  languageFunctionMapping={{
+    javascript: "set",
+    react: "useUpdateMetadata",
+  }}
+/>
+
+### Update
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"ContractMetadata"}
+  languageFunctionMapping={{
+    javascript: "update",
+    react: "useUpdateMetadata",
+  }}
+/>
+
+## Royalty Fees
+
+Read and update the royalty fees of a collection or a specific token.
+
+### Read
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"Royalty"}
+  languageFunctionMapping={{
+    javascript: "getDefaultRoyaltyInfo",
+    react: "useRoyaltySettings",
+  }}
+/>
+
+### Update
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"Royalty"}
+  languageFunctionMapping={{
+    javascript: "setDefaultRoyaltyInfo",
+    react: "useUpdateRoyaltySettings",
+  }}
+/>
+
+### Read Specific Token
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"Royalty"}
+  languageFunctionMapping={{
+    javascript: "getTokenRoyaltyInfo",
+  }}
+/>
+
+### Update Specific Token
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"Royalty"}
+  languageFunctionMapping={{
+    javascript: "setTokenRoyaltyInfo",
+  }}
+/>
+
+## Platform Fees
+
+Platform fees allow you to charge a percentage fee wherever there is a transfer of currency in your contract.
+
+### Read
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"PlatformFee"}
+  languageFunctionMapping={{
+    javascript: "get",
+    react: "usePlatformFees",
+  }}
+/>
+
+### Update
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"PlatformFee"}
+  languageFunctionMapping={{
+    javascript: "set",
+    react: "useUpdatePlatformFees",
+  }}
+/>
+
+## Primary Sale
+
+Configure the recipient of the primary sale fees.
+
+### Read
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"PrimarySale"}
+  languageFunctionMapping={{
+    javascript: "getRecipient",
+    react: "usePrimarySaleRecipient",
+  }}
+/>
+
+### Update
+
+<Web3sdkioFeatureCodeSnippet
+  featureName={"PrimarySale"}
+  languageFunctionMapping={{
+    javascript: "setRecipient",
+    react: "useUpdatePrimarySaleRecipient",
+  }}
+/>

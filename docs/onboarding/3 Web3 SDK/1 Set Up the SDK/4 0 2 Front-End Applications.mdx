@@ -1,0 +1,84 @@
+---
+slug: /sdk/set-up-the-sdk/frontend
+title: Frontend Applications
+---
+
+import InitializingWeb3sdkioCodeTabs from "../../../../../src/components/InitializingWeb3sdkioCodeTabs";
+
+# Building Frontend Applications
+
+You can build front-end applications by using our [React](/react) and [TypeScript](/typescript) SDKs!
+
+Front-end applications are best-suited when you want users to connect their wallets to your web application and interact with your contracts using their wallet; such as an [NFT Minting Website](/templates/nft-drop).
+
+## Automatic Set Up
+
+The easiest way to get started is by using the [web3sdkio CLI](/cli).
+
+This interactive tool creates a new project with web3sdkio pre-configured with a framework and language of your choice.
+
+```bash
+npx web3sdkio create
+```
+
+That's it! You're project is ready to start interacting with your contract!
+
+:::tip Starter Kits & Templates
+
+You can start with one of our [template projects](/templates) by passing the `--template` flag and the name of the example repo.
+
+:::
+
+## Manual Installation
+
+If you have an **existing** project you want to integrate web3sdkio into, install the web3sdkio SDKs:
+
+```bash
+npm install @web3sdkio/react @web3sdkio/sdk ethers
+```
+
+Then wrap your application in the `Web3sdkioProvider` to get started!
+
+```jsx
+import { Web3sdkioProvider, ChainId } from "@web3sdkio/react";
+
+// the chainId our app wants to be running on
+// for our example the Polygon Mumbai Testnet
+const desiredChainId = ChainId.Mumbai;
+
+export const MyApp = () => {
+  return (
+    <Web3sdkioProvider desiredChainId={desiredChainId}>
+      {/* Your App Goes Here */}
+    </Web3sdkioProvider>
+  );
+};
+```
+
+### From a Signer / Provider
+
+```jsx
+import { ChainId, Web3sdkioSDKProvider } from "@web3sdkio/react";
+
+// This is the chainId your dApp will work on.
+const activeChainId = ChainId.Mainnet;
+
+function MyApp({ Component, pageProps }) {
+  // If you want to use any custom provider or signer, add it here.
+  const myProvider = ...;
+  const mySigner = ...;
+
+
+  return (
+    <Web3sdkioSDKProvider
+      desiredChainId={activeChainId}
+      signer={mySigner}
+      provider={myProvider}
+    >
+      {/* Your App Goes Here */}
+    </Web3sdkioSDKProvider>
+  );
+}
+
+export default MyApp;
+```
