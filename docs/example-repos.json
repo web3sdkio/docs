@@ -1,11 +1,11 @@
 [
   {
     "name": "airdrop-nfts-to-holders",
-    "html_url": "https://github.com/web3sdkio-example/airdrop-nfts-to-holders",
+    "html_url": "https://github.com/web3sdkio-template/airdrop-nfts-to-holders",
     "description": "Airdrop ERC1155 NFTs to wallet addresses that hold an NFT from your ERC721 Collection!",
     "created_at": "2022-10-24T04:09:42Z",
     "updated_at": "2022-10-24T07:04:01Z",
-    "clone_url": "https://github.com/web3sdkio-example/airdrop-nfts-to-holders.git",
+    "clone_url": "https://github.com/web3sdkio-template/airdrop-nfts-to-holders.git",
     "topics": [],
     "language": "JavaScript",
     "stargazers_count": 1,
@@ -14,11 +14,11 @@
   },
   {
     "name": "artblocks",
-    "html_url": "https://github.com/web3sdkio-example/artblocks",
+    "html_url": "https://github.com/web3sdkio-template/artblocks",
     "description": "Create Generative Art NFTs with centralized metadata using the Contracts SDK",
     "created_at": "2022-08-23T02:16:31Z",
     "updated_at": "2022-10-24T20:00:43Z",
-    "clone_url": "https://github.com/web3sdkio-example/artblocks.git",
+    "clone_url": "https://github.com/web3sdkio-template/artblocks.git",
     "topics": [
       "contract-kit",
       "extensions"
@@ -30,11 +30,11 @@
   },
   {
     "name": "burn1155-mint721",
-    "html_url": "https://github.com/web3sdkio-example/burn1155-mint721",
+    "html_url": "https://github.com/web3sdkio-template/burn1155-mint721",
     "description": "Similar to the MAYC collection, allow users who hold an NFT from your original NFT Collection to burn an ERC-1155 NFT collection to claim an NFT from your new NFT Collection!",
     "created_at": "2022-09-12T11:18:00Z",
     "updated_at": "2022-10-27T12:32:49Z",
-    "clone_url": "https://github.com/web3sdkio-example/burn1155-mint721.git",
+    "clone_url": "https://github.com/web3sdkio-template/burn1155-mint721.git",
     "topics": [
       "contract-kit",
       "erc1155",
@@ -48,11 +48,11 @@
   },
   {
     "name": "community-rewards",
-    "html_url": "https://github.com/web3sdkio-example/community-rewards",
+    "html_url": "https://github.com/web3sdkio-template/community-rewards",
     "description": "Reward your community using NFTs and web3sdkio's signature based minting.",
     "created_at": "2022-05-22T23:33:24Z",
     "updated_at": "2022-10-06T09:23:15Z",
-    "clone_url": "https://github.com/web3sdkio-example/community-rewards.git",
+    "clone_url": "https://github.com/web3sdkio-template/community-rewards.git",
     "topics": [
       "nft-collection",
       "signature-based-minting"
@@ -60,30 +60,30 @@
     "language": "JavaScript",
     "stargazers_count": 12,
     "is_template": false,
-    "homepage": "https://community-rewards.web3sdkio-example.com"
+    "homepage": "https://community-rewards.web3sdkio-template.com"
   },
   {
     "name": "connect-wallet-button",
-    "html_url": "https://github.com/web3sdkio-example/connect-wallet-button",
+    "html_url": "https://github.com/web3sdkio-template/connect-wallet-button",
     "description": "Learn how to use the ConnectWallet Button component from the React SDK!",
     "created_at": "2022-08-23T04:29:36Z",
     "updated_at": "2022-10-13T02:25:19Z",
-    "clone_url": "https://github.com/web3sdkio-example/connect-wallet-button.git",
+    "clone_url": "https://github.com/web3sdkio-template/connect-wallet-button.git",
     "topics": [
       "ui-components"
     ],
     "language": "JavaScript",
     "stargazers_count": 2,
     "is_template": false,
-    "homepage": "https://connectwallet.web3sdkio-example.com/"
+    "homepage": "https://connectwallet.web3sdkio-template.com/"
   },
   {
     "name": "contract-hub",
-    "html_url": "https://github.com/web3sdkio-example/contract-hub",
+    "html_url": "https://github.com/web3sdkio-template/contract-hub",
     "description": "Demonstration of all web3sdkio's pre-built contracts with TypeScript + Getting started snippets",
     "created_at": "2022-05-03T10:20:11Z",
     "updated_at": "2022-10-23T20:05:02Z",
-    "clone_url": "https://github.com/web3sdkio-example/contract-hub.git",
+    "clone_url": "https://github.com/web3sdkio-template/contract-hub.git",
     "topics": [
       "demo",
       "web3sdkio"
@@ -91,15 +91,15 @@
     "language": "TypeScript",
     "stargazers_count": 7,
     "is_template": false,
-    "homepage": "https://contract-hub.web3sdkio-example.com/"
+    "homepage": "https://contract-hub.web3sdkio-template.com/"
   },
   {
     "name": "contracts-sdk-with-extensions",
-    "html_url": "https://github.com/web3sdkio-example/contracts-sdk-with-extensions",
+    "html_url": "https://github.com/web3sdkio-template/contracts-sdk-with-extensions",
     "description": "Build your own NFT Collection with Solidity using web3sdkio deploy and the web3sdkio SDK",
     "created_at": "2022-06-16T01:35:06Z",
     "updated_at": "2022-09-29T01:22:59Z",
-    "clone_url": "https://github.com/web3sdkio-example/contracts-sdk-with-extensions.git",
+    "clone_url": "https://github.com/web3sdkio-template/contracts-sdk-with-extensions.git",
     "topics": [
       "contract-kit",
       "extensions",
@@ -112,26 +112,26 @@
   },
   {
     "name": "covalent",
-    "html_url": "https://github.com/web3sdkio-example/covalent",
+    "html_url": "https://github.com/web3sdkio-template/covalent",
     "description": "Load the tokens a wallet owns using the covalent API",
     "created_at": "2022-07-07T07:04:15Z",
     "updated_at": "2022-10-24T03:20:33Z",
-    "clone_url": "https://github.com/web3sdkio-example/covalent.git",
+    "clone_url": "https://github.com/web3sdkio-template/covalent.git",
     "topics": [
       "wallets"
     ],
     "language": "CSS",
     "stargazers_count": 1,
     "is_template": false,
-    "homepage": "https://covalent.web3sdkio-example.com"
+    "homepage": "https://covalent.web3sdkio-template.com"
   },
   {
     "name": "cra-javascript-starter",
-    "html_url": "https://github.com/web3sdkio-example/cra-javascript-starter",
+    "html_url": "https://github.com/web3sdkio-template/cra-javascript-starter",
     "description": "web3sdkio starter project with Create React App & JavaScript",
     "created_at": "2022-03-18T00:31:36Z",
     "updated_at": "2022-11-15T20:15:02Z",
-    "clone_url": "https://github.com/web3sdkio-example/cra-javascript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/cra-javascript-starter.git",
     "topics": [
       "javascript",
       "react",
@@ -140,15 +140,15 @@
     "language": "JavaScript",
     "stargazers_count": 17,
     "is_template": true,
-    "homepage": "https://cra-javascript-starter.web3sdkio-example.com"
+    "homepage": "https://cra-javascript-starter.web3sdkio-template.com"
   },
   {
     "name": "cra-typescript-starter",
-    "html_url": "https://github.com/web3sdkio-example/cra-typescript-starter",
+    "html_url": "https://github.com/web3sdkio-template/cra-typescript-starter",
     "description": "web3sdkio starter project with Create React App & TypeScript",
     "created_at": "2022-03-17T23:44:42Z",
     "updated_at": "2022-10-04T20:54:40Z",
-    "clone_url": "https://github.com/web3sdkio-example/cra-typescript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/cra-typescript-starter.git",
     "topics": [
       "react",
       "starter-kit",
@@ -157,15 +157,15 @@
     "language": "TypeScript",
     "stargazers_count": 4,
     "is_template": true,
-    "homepage": "https://cra-typescript-starter.web3sdkio-example.com"
+    "homepage": "https://cra-typescript-starter.web3sdkio-template.com"
   },
   {
     "name": "creator-platform",
-    "html_url": "https://github.com/web3sdkio-example/creator-platform",
+    "html_url": "https://github.com/web3sdkio-template/creator-platform",
     "description": "Authenticate users into a web2 database to build a hybrid web2+web3 creator platform!",
     "created_at": "2022-09-23T01:22:38Z",
     "updated_at": "2022-11-04T13:55:52Z",
-    "clone_url": "https://github.com/web3sdkio-example/creator-platform.git",
+    "clone_url": "https://github.com/web3sdkio-template/creator-platform.git",
     "topics": [
       "auth",
       "prisma",
@@ -178,11 +178,11 @@
   },
   {
     "name": "custom-dashboard",
-    "html_url": "https://github.com/web3sdkio-example/custom-dashboard",
+    "html_url": "https://github.com/web3sdkio-template/custom-dashboard",
     "description": "Use web3sdkio's sdk.deployer to deploy any pre-built contract dynamically with no private keys!",
     "created_at": "2022-05-11T05:41:53Z",
     "updated_at": "2022-09-29T01:22:48Z",
-    "clone_url": "https://github.com/web3sdkio-example/custom-dashboard.git",
+    "clone_url": "https://github.com/web3sdkio-template/custom-dashboard.git",
     "topics": [
       "contracts",
       "sdk",
@@ -191,15 +191,15 @@
     "language": "TypeScript",
     "stargazers_count": 3,
     "is_template": false,
-    "homepage": "https://custom-dashboard.web3sdkio-example.com"
+    "homepage": "https://custom-dashboard.web3sdkio-template.com"
   },
   {
     "name": "dao",
-    "html_url": "https://github.com/web3sdkio-example/dao",
+    "html_url": "https://github.com/web3sdkio-template/dao",
     "description": "Build a DAO using web3sdkio's vote, token, and edition drop contracts.",
     "created_at": "2022-05-17T11:42:42Z",
     "updated_at": "2022-10-30T18:19:37Z",
-    "clone_url": "https://github.com/web3sdkio-example/dao.git",
+    "clone_url": "https://github.com/web3sdkio-template/dao.git",
     "topics": [
       "edition-drop",
       "token",
@@ -208,15 +208,15 @@
     "language": "JavaScript",
     "stargazers_count": 13,
     "is_template": false,
-    "homepage": "https://dao.web3sdkio-example.com"
+    "homepage": "https://dao.web3sdkio-template.com"
   },
   {
     "name": "discord-role-granter",
-    "html_url": "https://github.com/web3sdkio-example/discord-role-granter",
+    "html_url": "https://github.com/web3sdkio-template/discord-role-granter",
     "description": "Grant users who own NFTs a role in your Discord server!",
     "created_at": "2022-07-22T03:52:48Z",
     "updated_at": "2022-11-15T01:34:32Z",
-    "clone_url": "https://github.com/web3sdkio-example/discord-role-granter.git",
+    "clone_url": "https://github.com/web3sdkio-template/discord-role-granter.git",
     "topics": [
       "auth",
       "authentication",
@@ -225,15 +225,15 @@
     "language": "TypeScript",
     "stargazers_count": 3,
     "is_template": false,
-    "homepage": "https://discord-role-granter.web3sdkio-example.com/"
+    "homepage": "https://discord-role-granter.web3sdkio-template.com/"
   },
   {
     "name": "dynamic-pricing",
-    "html_url": "https://github.com/web3sdkio-example/dynamic-pricing",
+    "html_url": "https://github.com/web3sdkio-template/dynamic-pricing",
     "description": "Set a dynamic pricing for your Signature Drop collection NFTs",
     "created_at": "2022-11-01T16:14:54Z",
     "updated_at": "2022-11-01T16:15:53Z",
-    "clone_url": "https://github.com/web3sdkio-example/dynamic-pricing.git",
+    "clone_url": "https://github.com/web3sdkio-template/dynamic-pricing.git",
     "topics": [],
     "language": "JavaScript",
     "stargazers_count": 0,
@@ -242,26 +242,26 @@
   },
   {
     "name": "edition-drop",
-    "html_url": "https://github.com/web3sdkio-example/edition-drop",
+    "html_url": "https://github.com/web3sdkio-template/edition-drop",
     "description": "Starter kit for using the Edition Drop Pre-Built contract",
     "created_at": "2022-07-05T01:19:38Z",
     "updated_at": "2022-11-15T12:46:35Z",
-    "clone_url": "https://github.com/web3sdkio-example/edition-drop.git",
+    "clone_url": "https://github.com/web3sdkio-template/edition-drop.git",
     "topics": [
       "edition-drop"
     ],
     "language": "TypeScript",
     "stargazers_count": 4,
     "is_template": false,
-    "homepage": "https://edition-drop.web3sdkio-example.com"
+    "homepage": "https://edition-drop.web3sdkio-template.com"
   },
   {
     "name": "firebase-auth",
-    "html_url": "https://github.com/web3sdkio-example/firebase-auth",
+    "html_url": "https://github.com/web3sdkio-template/firebase-auth",
     "description": "Integrate sign in with Ethereum using web3sdkio Auth into your Firebase application",
     "created_at": "2022-09-09T03:34:01Z",
     "updated_at": "2022-11-11T21:57:54Z",
-    "clone_url": "https://github.com/web3sdkio-example/firebase-auth.git",
+    "clone_url": "https://github.com/web3sdkio-template/firebase-auth.git",
     "topics": [
       "auth",
       "firebase",
@@ -270,15 +270,15 @@
     "language": "TypeScript",
     "stargazers_count": 7,
     "is_template": false,
-    "homepage": "https://firebase-auth.web3sdkio-example.com/"
+    "homepage": "https://firebase-auth.web3sdkio-template.com/"
   },
   {
     "name": "forge-starter",
-    "html_url": "https://github.com/web3sdkio-example/forge-starter",
+    "html_url": "https://github.com/web3sdkio-template/forge-starter",
     "description": "web3sdkio contracts starter project for Forge",
     "created_at": "2022-08-02T21:35:35Z",
     "updated_at": "2022-09-29T01:29:55Z",
-    "clone_url": "https://github.com/web3sdkio-example/forge-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/forge-starter.git",
     "topics": [
       "forge",
       "solidity",
@@ -291,11 +291,11 @@
   },
   {
     "name": "full-stack-web3-app",
-    "html_url": "https://github.com/web3sdkio-example/full-stack-web3-app",
+    "html_url": "https://github.com/web3sdkio-template/full-stack-web3-app",
     "description": "Build an application on top of a custom contract using the web3sdkio SDK",
     "created_at": "2022-06-15T06:28:28Z",
     "updated_at": "2022-10-19T01:33:26Z",
-    "clone_url": "https://github.com/web3sdkio-example/full-stack-web3-app.git",
+    "clone_url": "https://github.com/web3sdkio-template/full-stack-web3-app.git",
     "topics": [
       "contract-kit",
       "extensions",
@@ -308,11 +308,11 @@
   },
   {
     "name": "getting-started",
-    "html_url": "https://github.com/web3sdkio-example/getting-started",
+    "html_url": "https://github.com/web3sdkio-template/getting-started",
     "description": "Get started with web3sdkio by building and deploying a full project including a smart contract and react application.",
     "created_at": "2022-09-15T05:36:12Z",
     "updated_at": "2022-09-29T06:38:49Z",
-    "clone_url": "https://github.com/web3sdkio-example/getting-started.git",
+    "clone_url": "https://github.com/web3sdkio-template/getting-started.git",
     "topics": [
       "contract-kit",
       "extensions",
@@ -325,11 +325,11 @@
   },
   {
     "name": "github-contributor-nft-rewards",
-    "html_url": "https://github.com/web3sdkio-example/github-contributor-nft-rewards",
+    "html_url": "https://github.com/web3sdkio-template/github-contributor-nft-rewards",
     "description": "Use signature-based minting to allow users who have contributed to your github repositories to claim an NFT!",
     "created_at": "2022-08-29T23:19:26Z",
     "updated_at": "2022-11-05T01:28:28Z",
-    "clone_url": "https://github.com/web3sdkio-example/github-contributor-nft-rewards.git",
+    "clone_url": "https://github.com/web3sdkio-template/github-contributor-nft-rewards.git",
     "topics": [
       "auth",
       "signature-based-minting"
@@ -337,15 +337,15 @@
     "language": "TypeScript",
     "stargazers_count": 8,
     "is_template": false,
-    "homepage": "https://github-contributor-nft-rewards.web3sdkio-example.com/"
+    "homepage": "https://github-contributor-nft-rewards.web3sdkio-template.com/"
   },
   {
     "name": "hardhat-javascript-starter",
-    "html_url": "https://github.com/web3sdkio-example/hardhat-javascript-starter",
+    "html_url": "https://github.com/web3sdkio-template/hardhat-javascript-starter",
     "description": "web3sdkio contracts starter project for Hardhat & TypeScript",
     "created_at": "2022-07-29T02:19:53Z",
     "updated_at": "2022-09-29T01:30:17Z",
-    "clone_url": "https://github.com/web3sdkio-example/hardhat-javascript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/hardhat-javascript-starter.git",
     "topics": [
       "hardhat",
       "solidity",
@@ -358,11 +358,11 @@
   },
   {
     "name": "hardhat-typescript-starter",
-    "html_url": "https://github.com/web3sdkio-example/hardhat-typescript-starter",
+    "html_url": "https://github.com/web3sdkio-template/hardhat-typescript-starter",
     "description": "web3sdkio contracts starter project for Hardhat & TypeScript",
     "created_at": "2022-07-29T01:58:49Z",
     "updated_at": "2022-09-29T01:32:03Z",
-    "clone_url": "https://github.com/web3sdkio-example/hardhat-typescript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/hardhat-typescript-starter.git",
     "topics": [
       "hardhat",
       "solidity",
@@ -375,11 +375,11 @@
   },
   {
     "name": "ipfs-media-renderer",
-    "html_url": "https://github.com/web3sdkio-example/ipfs-media-renderer",
+    "html_url": "https://github.com/web3sdkio-template/ipfs-media-renderer",
     "description": "Render any asset stored on IPFS using our SDK's UI Components",
     "created_at": "2022-10-31T02:38:56Z",
     "updated_at": "2022-10-31T03:05:08Z",
-    "clone_url": "https://github.com/web3sdkio-example/ipfs-media-renderer.git",
+    "clone_url": "https://github.com/web3sdkio-template/ipfs-media-renderer.git",
     "topics": [
       "react",
       "ui-components"
@@ -391,26 +391,26 @@
   },
   {
     "name": "lens",
-    "html_url": "https://github.com/web3sdkio-example/lens",
+    "html_url": "https://github.com/web3sdkio-template/lens",
     "description": "Starter kit for using Lens Protocol with the web3sdkio SDK!",
     "created_at": "2022-10-27T10:15:02Z",
     "updated_at": "2022-11-15T07:44:43Z",
-    "clone_url": "https://github.com/web3sdkio-example/lens.git",
+    "clone_url": "https://github.com/web3sdkio-template/lens.git",
     "topics": [
       "lens-protocol"
     ],
     "language": "TypeScript",
     "stargazers_count": 15,
     "is_template": false,
-    "homepage": "https://lens.web3sdkio-example.com/"
+    "homepage": "https://lens.web3sdkio-template.com/"
   },
   {
     "name": "login-with-wallet",
-    "html_url": "https://github.com/web3sdkio-example/login-with-wallet",
+    "html_url": "https://github.com/web3sdkio-template/login-with-wallet",
     "description": "Authenticate to a backend using the sign in with ethereum standard provided by web3sdkio auth",
     "created_at": "2022-06-03T16:04:25Z",
     "updated_at": "2022-09-29T14:56:40Z",
-    "clone_url": "https://github.com/web3sdkio-example/login-with-wallet.git",
+    "clone_url": "https://github.com/web3sdkio-template/login-with-wallet.git",
     "topics": [
       "auth",
       "wallet-connection"
@@ -422,11 +422,11 @@
   },
   {
     "name": "magic-link",
-    "html_url": "https://github.com/web3sdkio-example/magic-link",
+    "html_url": "https://github.com/web3sdkio-template/magic-link",
     "description": "Connect users to your dApp using just their email using web3sdkio's useMagic hook!",
     "created_at": "2022-04-27T07:03:18Z",
     "updated_at": "2022-11-09T05:55:32Z",
-    "clone_url": "https://github.com/web3sdkio-example/magic-link.git",
+    "clone_url": "https://github.com/web3sdkio-template/magic-link.git",
     "topics": [
       "nextjs",
       "typescript",
@@ -435,15 +435,15 @@
     "language": "TypeScript",
     "stargazers_count": 7,
     "is_template": false,
-    "homepage": "https://magic-link.web3sdkio-example.com"
+    "homepage": "https://magic-link.web3sdkio-template.com"
   },
   {
     "name": "makeswift",
-    "html_url": "https://github.com/web3sdkio-example/makeswift",
+    "html_url": "https://github.com/web3sdkio-template/makeswift",
     "description": "Use Makeswift to build a web3 application using a drag-and-drop web builder",
     "created_at": "2022-07-25T21:35:43Z",
     "updated_at": "2022-09-29T01:31:00Z",
-    "clone_url": "https://github.com/web3sdkio-example/makeswift.git",
+    "clone_url": "https://github.com/web3sdkio-template/makeswift.git",
     "topics": [
       "no-code"
     ],
@@ -454,11 +454,11 @@
   },
   {
     "name": "marketplace",
-    "html_url": "https://github.com/web3sdkio-example/marketplace",
+    "html_url": "https://github.com/web3sdkio-template/marketplace",
     "description": "An NFT Marketplace where you can list NFTs for direct sale or for auction. Users can come and bid on your listings or buy your NFTs, similar to OpenSea.",
     "created_at": "2022-04-27T23:59:14Z",
     "updated_at": "2022-11-16T07:01:56Z",
-    "clone_url": "https://github.com/web3sdkio-example/marketplace.git",
+    "clone_url": "https://github.com/web3sdkio-template/marketplace.git",
     "topics": [
       "marketplace",
       "nextjs",
@@ -467,30 +467,30 @@
     "language": "TypeScript",
     "stargazers_count": 34,
     "is_template": false,
-    "homepage": "https://marketplace.web3sdkio-example.com"
+    "homepage": "https://marketplace.web3sdkio-template.com"
   },
   {
     "name": "marketplace-with-signature-based-minting",
-    "html_url": "https://github.com/web3sdkio-example/marketplace-with-signature-based-minting",
+    "html_url": "https://github.com/web3sdkio-template/marketplace-with-signature-based-minting",
     "description": "Mint and list NFTs on to a marketplace using signature-based minting",
     "created_at": "2022-07-26T07:48:49Z",
     "updated_at": "2022-11-01T04:00:07Z",
-    "clone_url": "https://github.com/web3sdkio-example/marketplace-with-signature-based-minting.git",
+    "clone_url": "https://github.com/web3sdkio-template/marketplace-with-signature-based-minting.git",
     "topics": [
       "marketplace"
     ],
     "language": "JavaScript",
     "stargazers_count": 5,
     "is_template": false,
-    "homepage": "https://marketplace-with-signature-based-minting.web3sdkio-example.com/"
+    "homepage": "https://marketplace-with-signature-based-minting.web3sdkio-template.com/"
   },
   {
     "name": "multiwrap",
-    "html_url": "https://github.com/web3sdkio-example/multiwrap",
+    "html_url": "https://github.com/web3sdkio-template/multiwrap",
     "description": "Wrap ERC-1155, ERC-721 and ERC-20 tokens in to one ERC-721 token",
     "created_at": "2022-06-03T00:27:59Z",
     "updated_at": "2022-10-26T19:21:09Z",
-    "clone_url": "https://github.com/web3sdkio-example/multiwrap.git",
+    "clone_url": "https://github.com/web3sdkio-template/multiwrap.git",
     "topics": [
       "multiwrap"
     ],
@@ -501,11 +501,11 @@
   },
   {
     "name": "next-javascript-solana-starter",
-    "html_url": "https://github.com/web3sdkio-example/next-javascript-solana-starter",
+    "html_url": "https://github.com/web3sdkio-template/next-javascript-solana-starter",
     "description": "Starter Kit for Next.js + JavaScript + Solana",
     "created_at": "2022-10-13T00:08:23Z",
     "updated_at": "2022-10-15T13:56:28Z",
-    "clone_url": "https://github.com/web3sdkio-example/next-javascript-solana-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/next-javascript-solana-starter.git",
     "topics": [
       "solana",
       "starter-kit"
@@ -513,15 +513,15 @@
     "language": "JavaScript",
     "stargazers_count": 2,
     "is_template": false,
-    "homepage": "https://next-javascript-solana-starter.web3sdkio-example.com/"
+    "homepage": "https://next-javascript-solana-starter.web3sdkio-template.com/"
   },
   {
     "name": "next-javascript-starter",
-    "html_url": "https://github.com/web3sdkio-example/next-javascript-starter",
+    "html_url": "https://github.com/web3sdkio-template/next-javascript-starter",
     "description": "web3sdkio starter project with Next.js & JavaScript",
     "created_at": "2022-03-17T23:05:32Z",
     "updated_at": "2022-10-22T07:12:02Z",
-    "clone_url": "https://github.com/web3sdkio-example/next-javascript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/next-javascript-starter.git",
     "topics": [
       "javascript",
       "nextjs",
@@ -531,15 +531,15 @@
     "language": "CSS",
     "stargazers_count": 20,
     "is_template": true,
-    "homepage": "https://next-javascript-starter.web3sdkio-example.com"
+    "homepage": "https://next-javascript-starter.web3sdkio-template.com"
   },
   {
     "name": "next-typescript-solana-starter",
-    "html_url": "https://github.com/web3sdkio-example/next-typescript-solana-starter",
+    "html_url": "https://github.com/web3sdkio-template/next-typescript-solana-starter",
     "description": "Starter Kit for Next.js + TypeScript + Solana",
     "created_at": "2022-09-20T06:27:03Z",
     "updated_at": "2022-10-19T14:36:48Z",
-    "clone_url": "https://github.com/web3sdkio-example/next-typescript-solana-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/next-typescript-solana-starter.git",
     "topics": [
       "solana",
       "starter-kit"
@@ -547,15 +547,15 @@
     "language": "TypeScript",
     "stargazers_count": 5,
     "is_template": false,
-    "homepage": "https://next-typescript-solana-starter.web3sdkio-example.com/"
+    "homepage": "https://next-typescript-solana-starter.web3sdkio-template.com/"
   },
   {
     "name": "next-typescript-starter",
-    "html_url": "https://github.com/web3sdkio-example/next-typescript-starter",
+    "html_url": "https://github.com/web3sdkio-template/next-typescript-starter",
     "description": "web3sdkio starter project with Next.js & TypeScript",
     "created_at": "2022-03-17T18:18:45Z",
     "updated_at": "2022-11-10T23:36:24Z",
-    "clone_url": "https://github.com/web3sdkio-example/next-typescript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/next-typescript-starter.git",
     "topics": [
       "nextjs",
       "starter-kit",
@@ -569,30 +569,30 @@
     "language": "CSS",
     "stargazers_count": 30,
     "is_template": true,
-    "homepage": "https://next-typescript-starter.web3sdkio-example.com"
+    "homepage": "https://next-typescript-starter.web3sdkio-template.com"
   },
   {
     "name": "nft-drop",
-    "html_url": "https://github.com/web3sdkio-example/nft-drop",
+    "html_url": "https://github.com/web3sdkio-template/nft-drop",
     "description": "Create your own custom NFT minting page using web3sdkio's NFT Drop contract",
     "created_at": "2022-05-16T01:17:47Z",
     "updated_at": "2022-11-14T16:24:20Z",
-    "clone_url": "https://github.com/web3sdkio-example/nft-drop.git",
+    "clone_url": "https://github.com/web3sdkio-template/nft-drop.git",
     "topics": [
       "nft-drop"
     ],
     "language": "TypeScript",
     "stargazers_count": 52,
     "is_template": false,
-    "homepage": "https://custom-minting-page.web3sdkio-example.com"
+    "homepage": "https://custom-minting-page.web3sdkio-template.com"
   },
   {
     "name": "nft-gated-website",
-    "html_url": "https://github.com/web3sdkio-example/nft-gated-website",
+    "html_url": "https://github.com/web3sdkio-template/nft-gated-website",
     "description": "Restrict access to content based on the ownership of an NFT",
     "created_at": "2022-04-08T17:59:57Z",
     "updated_at": "2022-11-16T14:20:45Z",
-    "clone_url": "https://github.com/web3sdkio-example/nft-gated-website.git",
+    "clone_url": "https://github.com/web3sdkio-template/nft-gated-website.git",
     "topics": [
       "auth",
       "authentication",
@@ -604,15 +604,15 @@
     "language": "JavaScript",
     "stargazers_count": 65,
     "is_template": false,
-    "homepage": "https://nft-gated-website.web3sdkio-example.com"
+    "homepage": "https://nft-gated-website.web3sdkio-template.com"
   },
   {
     "name": "nft-gated-website-solana",
-    "html_url": "https://github.com/web3sdkio-example/nft-gated-website-solana",
+    "html_url": "https://github.com/web3sdkio-template/nft-gated-website-solana",
     "description": "Restrict access to content on your website to NFT Holders in Solana!",
     "created_at": "2022-10-13T03:16:16Z",
     "updated_at": "2022-11-16T05:41:47Z",
-    "clone_url": "https://github.com/web3sdkio-example/nft-gated-website-solana.git",
+    "clone_url": "https://github.com/web3sdkio-template/nft-gated-website-solana.git",
     "topics": [
       "auth",
       "solana"
@@ -620,15 +620,15 @@
     "language": "TypeScript",
     "stargazers_count": 6,
     "is_template": false,
-    "homepage": "https://nft-gated-website-solana.web3sdkio-example.com"
+    "homepage": "https://nft-gated-website-solana.web3sdkio-template.com"
   },
   {
     "name": "nft-staking-app",
-    "html_url": "https://github.com/web3sdkio-example/nft-staking-app",
+    "html_url": "https://github.com/web3sdkio-template/nft-staking-app",
     "description": "An NFT Staking contract deployed using web3sdkio deploy, where users stake their ERC721 tokens and earn ERC20 tokens in return!",
     "created_at": "2022-05-31T05:09:19Z",
     "updated_at": "2022-11-13T23:27:25Z",
-    "clone_url": "https://github.com/web3sdkio-example/nft-staking-app.git",
+    "clone_url": "https://github.com/web3sdkio-template/nft-staking-app.git",
     "topics": [
       "contract-kit",
       "erc20",
@@ -642,15 +642,15 @@
     "language": "TypeScript",
     "stargazers_count": 63,
     "is_template": false,
-    "homepage": "https://nft-staking-contract.web3sdkio-example.com/"
+    "homepage": "https://nft-staking-contract.web3sdkio-template.com/"
   },
   {
     "name": "on-chain-nft-metadata",
-    "html_url": "https://github.com/web3sdkio-example/on-chain-nft-metadata",
+    "html_url": "https://github.com/web3sdkio-template/on-chain-nft-metadata",
     "description": "Create & deploy an ERC721 NFT Collection with on-chain NFT metadata with ContractKit ",
     "created_at": "2022-11-09T04:12:00Z",
     "updated_at": "2022-11-09T04:16:02Z",
-    "clone_url": "https://github.com/web3sdkio-example/on-chain-nft-metadata.git",
+    "clone_url": "https://github.com/web3sdkio-template/on-chain-nft-metadata.git",
     "topics": [],
     "language": "Solidity",
     "stargazers_count": 0,
@@ -659,26 +659,26 @@
   },
   {
     "name": "packs",
-    "html_url": "https://github.com/web3sdkio-example/packs",
+    "html_url": "https://github.com/web3sdkio-template/packs",
     "description": "Bundle NFTs and Tokens together in Packs that users can open and receive randomly selected tokens from those that were bundled!",
     "created_at": "2022-06-21T07:50:46Z",
     "updated_at": "2022-11-05T00:49:59Z",
-    "clone_url": "https://github.com/web3sdkio-example/packs.git",
+    "clone_url": "https://github.com/web3sdkio-template/packs.git",
     "topics": [
       "pack"
     ],
     "language": "TypeScript",
     "stargazers_count": 3,
     "is_template": false,
-    "homepage": "https://packs.web3sdkio-example.com"
+    "homepage": "https://packs.web3sdkio-template.com"
   },
   {
     "name": "play-to-earn-game",
-    "html_url": "https://github.com/web3sdkio-example/play-to-earn-game",
+    "html_url": "https://github.com/web3sdkio-template/play-to-earn-game",
     "description": "Use web3sdkio's token, edition drop, and a custom contract using web3sdkio deploy to build a Play-to-Earn game!",
     "created_at": "2022-06-22T11:24:30Z",
     "updated_at": "2022-11-15T10:48:00Z",
-    "clone_url": "https://github.com/web3sdkio-example/play-to-earn-game.git",
+    "clone_url": "https://github.com/web3sdkio-template/play-to-earn-game.git",
     "topics": [
       "contract-kit",
       "erc1155",
@@ -690,15 +690,15 @@
     "language": "TypeScript",
     "stargazers_count": 20,
     "is_template": false,
-    "homepage": "https://play-to-earn.web3sdkio-example.com"
+    "homepage": "https://play-to-earn.web3sdkio-template.com"
   },
   {
     "name": "react-native-javascript-starter",
-    "html_url": "https://github.com/web3sdkio-example/react-native-javascript-starter",
+    "html_url": "https://github.com/web3sdkio-template/react-native-javascript-starter",
     "description": null,
     "created_at": "2022-11-09T06:00:00Z",
     "updated_at": "2022-11-10T20:22:32Z",
-    "clone_url": "https://github.com/web3sdkio-example/react-native-javascript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/react-native-javascript-starter.git",
     "topics": [],
     "language": "JavaScript",
     "stargazers_count": 0,
@@ -707,11 +707,11 @@
   },
   {
     "name": "react-native-typescript-starter",
-    "html_url": "https://github.com/web3sdkio-example/react-native-typescript-starter",
+    "html_url": "https://github.com/web3sdkio-template/react-native-typescript-starter",
     "description": null,
     "created_at": "2022-11-02T02:03:17Z",
     "updated_at": "2022-11-16T20:01:36Z",
-    "clone_url": "https://github.com/web3sdkio-example/react-native-typescript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/react-native-typescript-starter.git",
     "topics": [],
     "language": "TypeScript",
     "stargazers_count": 3,
@@ -720,26 +720,26 @@
   },
   {
     "name": "reddit",
-    "html_url": "https://github.com/web3sdkio-example/reddit",
+    "html_url": "https://github.com/web3sdkio-template/reddit",
     "description": "Create a seamless user experience with email sign in and pay the gas for minting NFTs.",
     "created_at": "2022-11-05T01:31:43Z",
     "updated_at": "2022-11-07T21:50:29Z",
-    "clone_url": "https://github.com/web3sdkio-example/reddit.git",
+    "clone_url": "https://github.com/web3sdkio-template/reddit.git",
     "topics": [
       "nft-drop"
     ],
     "language": "TypeScript",
     "stargazers_count": 1,
     "is_template": false,
-    "homepage": "https://reddit.web3sdkio-example.com/"
+    "homepage": "https://reddit.web3sdkio-template.com/"
   },
   {
     "name": "shopify-discount-codes",
-    "html_url": "https://github.com/web3sdkio-example/shopify-discount-codes",
+    "html_url": "https://github.com/web3sdkio-template/shopify-discount-codes",
     "description": "Grant users who hold an NFT from your collection a discount code they can use in your Shopify store!",
     "created_at": "2022-10-04T23:36:42Z",
     "updated_at": "2022-10-04T23:37:36Z",
-    "clone_url": "https://github.com/web3sdkio-example/shopify-discount-codes.git",
+    "clone_url": "https://github.com/web3sdkio-template/shopify-discount-codes.git",
     "topics": [],
     "language": "TypeScript",
     "stargazers_count": 0,
@@ -748,11 +748,11 @@
   },
   {
     "name": "shopify-sell-nfts",
-    "html_url": "https://github.com/web3sdkio-example/shopify-sell-nfts",
+    "html_url": "https://github.com/web3sdkio-template/shopify-sell-nfts",
     "description": "Sell NFTs in FIAT currency using a Shopify store and webhooks!",
     "created_at": "2022-10-06T01:28:05Z",
     "updated_at": "2022-10-10T23:14:40Z",
-    "clone_url": "https://github.com/web3sdkio-example/shopify-sell-nfts.git",
+    "clone_url": "https://github.com/web3sdkio-template/shopify-sell-nfts.git",
     "topics": [],
     "language": "JavaScript",
     "stargazers_count": 1,
@@ -761,11 +761,11 @@
   },
   {
     "name": "sign-in-button",
-    "html_url": "https://github.com/web3sdkio-example/sign-in-button",
+    "html_url": "https://github.com/web3sdkio-template/sign-in-button",
     "description": "Simple starter kit for Auth and the ConnectWallet button",
     "created_at": "2022-10-18T03:16:26Z",
     "updated_at": "2022-10-24T05:40:52Z",
-    "clone_url": "https://github.com/web3sdkio-example/sign-in-button.git",
+    "clone_url": "https://github.com/web3sdkio-template/sign-in-button.git",
     "topics": [],
     "language": "JavaScript",
     "stargazers_count": 1,
@@ -774,11 +774,11 @@
   },
   {
     "name": "sign-in-with-solana",
-    "html_url": "https://github.com/web3sdkio-example/sign-in-with-solana",
+    "html_url": "https://github.com/web3sdkio-template/sign-in-with-solana",
     "description": "Verify a user owns their wallet in a server-side environment using Sign In With Solana!",
     "created_at": "2022-10-13T01:04:41Z",
     "updated_at": "2022-10-13T05:17:20Z",
-    "clone_url": "https://github.com/web3sdkio-example/sign-in-with-solana.git",
+    "clone_url": "https://github.com/web3sdkio-template/sign-in-with-solana.git",
     "topics": [
       "auth",
       "solana"
@@ -786,15 +786,15 @@
     "language": "TypeScript",
     "stargazers_count": 1,
     "is_template": false,
-    "homepage": "https://sign-in-with-solana.web3sdkio-example.com"
+    "homepage": "https://sign-in-with-solana.web3sdkio-template.com"
   },
   {
     "name": "signature-based-minting",
-    "html_url": "https://github.com/web3sdkio-example/signature-based-minting",
+    "html_url": "https://github.com/web3sdkio-template/signature-based-minting",
     "description": "Create a community-made NFT collection with restrictions that you specify using signature based minting in web3sdkio's NFT Collection contract.",
     "created_at": "2022-04-07T20:17:43Z",
     "updated_at": "2022-11-15T20:42:45Z",
-    "clone_url": "https://github.com/web3sdkio-example/signature-based-minting.git",
+    "clone_url": "https://github.com/web3sdkio-template/signature-based-minting.git",
     "topics": [
       "nextjs",
       "nft-collection",
@@ -804,45 +804,45 @@
     "language": "TypeScript",
     "stargazers_count": 19,
     "is_template": false,
-    "homepage": "https://signature-based-minting.web3sdkio-example.com"
+    "homepage": "https://signature-based-minting.web3sdkio-template.com"
   },
   {
     "name": "signature-drop",
-    "html_url": "https://github.com/web3sdkio-example/signature-drop",
+    "html_url": "https://github.com/web3sdkio-template/signature-drop",
     "description": "Use the signature drop pre-built contract to claim NFTs under a claim phase as well as claim using signature-based minting!",
     "created_at": "2022-07-14T23:58:52Z",
     "updated_at": "2022-11-16T18:13:45Z",
-    "clone_url": "https://github.com/web3sdkio-example/signature-drop.git",
+    "clone_url": "https://github.com/web3sdkio-template/signature-drop.git",
     "topics": [
       "signature-drop"
     ],
     "language": "TypeScript",
     "stargazers_count": 8,
     "is_template": false,
-    "homepage": "http://signature-drop.web3sdkio-example.com/"
+    "homepage": "http://signature-drop.web3sdkio-template.com/"
   },
   {
     "name": "solana-hub",
-    "html_url": "https://github.com/web3sdkio-example/solana-hub",
+    "html_url": "https://github.com/web3sdkio-template/solana-hub",
     "description": "Explore what you can do with our Solana SDK!",
     "created_at": "2022-09-20T02:19:53Z",
     "updated_at": "2022-09-20T10:18:09Z",
-    "clone_url": "https://github.com/web3sdkio-example/solana-hub.git",
+    "clone_url": "https://github.com/web3sdkio-template/solana-hub.git",
     "topics": [
       "solana"
     ],
     "language": "TypeScript",
     "stargazers_count": 3,
     "is_template": false,
-    "homepage": "https://solana-hub.web3sdkio-example.com/"
+    "homepage": "https://solana-hub.web3sdkio-template.com/"
   },
   {
     "name": "solana-nft-gallery",
-    "html_url": "https://github.com/web3sdkio-example/solana-nft-gallery",
+    "html_url": "https://github.com/web3sdkio-template/solana-nft-gallery",
     "description": "Build an NFT Gallery showcasing all of your collection's NFTs on Solana!",
     "created_at": "2022-10-26T01:06:53Z",
     "updated_at": "2022-10-26T01:25:43Z",
-    "clone_url": "https://github.com/web3sdkio-example/solana-nft-gallery.git",
+    "clone_url": "https://github.com/web3sdkio-template/solana-nft-gallery.git",
     "topics": [
       "nft-collection",
       "solana"
@@ -850,15 +850,15 @@
     "language": "TypeScript",
     "stargazers_count": 0,
     "is_template": false,
-    "homepage": "https://solana-nft-gallery.web3sdkio-example.com"
+    "homepage": "https://solana-nft-gallery.web3sdkio-template.com"
   },
   {
     "name": "solana-token-deploy",
-    "html_url": "https://github.com/web3sdkio-example/solana-token-deploy",
+    "html_url": "https://github.com/web3sdkio-template/solana-token-deploy",
     "description": "Deploy a token program using the TypeScript SDK",
     "created_at": "2022-09-27T08:25:47Z",
     "updated_at": "2022-10-29T23:00:52Z",
-    "clone_url": "https://github.com/web3sdkio-example/solana-token-deploy.git",
+    "clone_url": "https://github.com/web3sdkio-template/solana-token-deploy.git",
     "topics": [
       "solana"
     ],
@@ -869,11 +869,11 @@
   },
   {
     "name": "solidity-hello-world",
-    "html_url": "https://github.com/web3sdkio-example/solidity-hello-world",
+    "html_url": "https://github.com/web3sdkio-template/solidity-hello-world",
     "description": "Build and deploy a simple hello world smart contract using our contract kit!",
     "created_at": "2022-06-15T00:12:56Z",
     "updated_at": "2022-09-29T01:33:09Z",
-    "clone_url": "https://github.com/web3sdkio-example/solidity-hello-world.git",
+    "clone_url": "https://github.com/web3sdkio-template/solidity-hello-world.git",
     "topics": [
       "blockchain",
       "contract-kit",
@@ -889,11 +889,11 @@
   },
   {
     "name": "web3sdkio-auth-express",
-    "html_url": "https://github.com/web3sdkio-example/web3sdkio-auth-express",
+    "html_url": "https://github.com/web3sdkio-template/web3sdkio-auth-express",
     "description": "Enable wallet-based login with web3sdkio Auth & Express",
     "created_at": "2022-08-19T15:40:00Z",
     "updated_at": "2022-09-29T01:26:31Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3sdkio-auth-express.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3sdkio-auth-express.git",
     "topics": [
       "auth"
     ],
@@ -904,11 +904,11 @@
   },
   {
     "name": "web3sdkio-auth-fiber",
-    "html_url": "https://github.com/web3sdkio-example/web3sdkio-auth-fiber",
+    "html_url": "https://github.com/web3sdkio-template/web3sdkio-auth-fiber",
     "description": "Enable wallet-based login with web3sdkio Auth & Fiber",
     "created_at": "2022-08-30T00:08:03Z",
     "updated_at": "2022-09-29T01:26:37Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3sdkio-auth-fiber.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3sdkio-auth-fiber.git",
     "topics": [
       "auth"
     ],
@@ -919,11 +919,11 @@
   },
   {
     "name": "web3sdkio-auth-flask",
-    "html_url": "https://github.com/web3sdkio-example/web3sdkio-auth-flask",
+    "html_url": "https://github.com/web3sdkio-template/web3sdkio-auth-flask",
     "description": "Enable wallet-based login with web3sdkio Auth & Flask",
     "created_at": "2022-08-30T00:17:55Z",
     "updated_at": "2022-09-29T01:26:46Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3sdkio-auth-flask.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3sdkio-auth-flask.git",
     "topics": [
       "auth",
       "flask",
@@ -936,11 +936,11 @@
   },
   {
     "name": "web3sdkio-auth-next",
-    "html_url": "https://github.com/web3sdkio-example/web3sdkio-auth-next",
+    "html_url": "https://github.com/web3sdkio-template/web3sdkio-auth-next",
     "description": "Enable wallet-based login with web3sdkio Auth & Next",
     "created_at": "2022-08-18T20:13:40Z",
     "updated_at": "2022-11-04T14:42:57Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3sdkio-auth-next.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3sdkio-auth-next.git",
     "topics": [
       "auth"
     ],
@@ -951,11 +951,11 @@
   },
   {
     "name": "web3sdkio-auth-next-auth",
-    "html_url": "https://github.com/web3sdkio-example/web3sdkio-auth-next-auth",
+    "html_url": "https://github.com/web3sdkio-template/web3sdkio-auth-next-auth",
     "description": "Enable wallet-based login with web3sdkio Auth & Next Auth",
     "created_at": "2022-08-30T21:44:52Z",
     "updated_at": "2022-11-15T20:40:42Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3sdkio-auth-next-auth.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3sdkio-auth-next-auth.git",
     "topics": [
       "auth",
       "nextauth"
@@ -967,11 +967,11 @@
   },
   {
     "name": "web3sdkio-auth-postgres",
-    "html_url": "https://github.com/web3sdkio-example/web3sdkio-auth-postgres",
+    "html_url": "https://github.com/web3sdkio-template/web3sdkio-auth-postgres",
     "description": "Enable users to login to your backend with their wallet, and store users in postgres",
     "created_at": "2022-09-07T20:07:34Z",
     "updated_at": "2022-11-10T10:00:58Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3sdkio-auth-postgres.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3sdkio-auth-postgres.git",
     "topics": [
       "auth",
       "postgres",
@@ -984,11 +984,11 @@
   },
   {
     "name": "web3sdkio-auth-solana-next",
-    "html_url": "https://github.com/web3sdkio-example/web3sdkio-auth-solana-next",
+    "html_url": "https://github.com/web3sdkio-template/web3sdkio-auth-solana-next",
     "description": "Enable wallet-based login for Solana wallets with web3sdkio Auth & Next",
     "created_at": "2022-10-07T21:06:39Z",
     "updated_at": "2022-10-12T02:19:15Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3sdkio-auth-solana-next.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3sdkio-auth-solana-next.git",
     "topics": [
       "solana"
     ],
@@ -999,11 +999,11 @@
   },
   {
     "name": "web3sdkio-auth-supabase",
-    "html_url": "https://github.com/web3sdkio-example/web3sdkio-auth-supabase",
+    "html_url": "https://github.com/web3sdkio-template/web3sdkio-auth-supabase",
     "description": "Enable users to login to your backend with their wallet, and store users in supabase. ",
     "created_at": "2022-08-19T19:02:16Z",
     "updated_at": "2022-11-07T14:27:41Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3sdkio-auth-supabase.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3sdkio-auth-supabase.git",
     "topics": [
       "auth",
       "supabase",
@@ -1016,11 +1016,11 @@
   },
   {
     "name": "web3sdkio-stripe",
-    "html_url": "https://github.com/web3sdkio-example/web3sdkio-stripe",
+    "html_url": "https://github.com/web3sdkio-template/web3sdkio-stripe",
     "description": "Subscription based payments for web3 apps using web3sdkio authentication and stripe",
     "created_at": "2022-06-19T02:19:09Z",
     "updated_at": "2022-11-07T14:54:21Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3sdkio-stripe.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3sdkio-stripe.git",
     "topics": [
       "auth",
       "stripe"
@@ -1032,11 +1032,11 @@
   },
   {
     "name": "todo-list",
-    "html_url": "https://github.com/web3sdkio-example/todo-list",
+    "html_url": "https://github.com/web3sdkio-template/todo-list",
     "description": "Build a simple todo list by building and interacting with a smart contract!",
     "created_at": "2022-09-12T01:57:30Z",
     "updated_at": "2022-09-29T01:19:40Z",
-    "clone_url": "https://github.com/web3sdkio-example/todo-list.git",
+    "clone_url": "https://github.com/web3sdkio-template/todo-list.git",
     "topics": [
       "contract-kit",
       "extensions"
@@ -1044,30 +1044,30 @@
     "language": "TypeScript",
     "stargazers_count": 1,
     "is_template": false,
-    "homepage": "https://todo-list.web3sdkio-example.com/"
+    "homepage": "https://todo-list.web3sdkio-template.com/"
   },
   {
     "name": "token-drop",
-    "html_url": "https://github.com/web3sdkio-example/token-drop",
+    "html_url": "https://github.com/web3sdkio-template/token-drop",
     "description": "Release your token with claim conditions for a price using web3sdkio's Token Drop contract",
     "created_at": "2022-05-25T04:05:25Z",
     "updated_at": "2022-10-28T20:41:06Z",
-    "clone_url": "https://github.com/web3sdkio-example/token-drop.git",
+    "clone_url": "https://github.com/web3sdkio-template/token-drop.git",
     "topics": [
       "token-drop"
     ],
     "language": "JavaScript",
     "stargazers_count": 3,
     "is_template": false,
-    "homepage": "https://token-drop.web3sdkio-example.com"
+    "homepage": "https://token-drop.web3sdkio-template.com"
   },
   {
     "name": "updatable-nft-metadata",
-    "html_url": "https://github.com/web3sdkio-example/updatable-nft-metadata",
+    "html_url": "https://github.com/web3sdkio-template/updatable-nft-metadata",
     "description": null,
     "created_at": "2022-11-08T03:48:09Z",
     "updated_at": "2022-11-08T06:02:12Z",
-    "clone_url": "https://github.com/web3sdkio-example/updatable-nft-metadata.git",
+    "clone_url": "https://github.com/web3sdkio-template/updatable-nft-metadata.git",
     "topics": [],
     "language": "JavaScript",
     "stargazers_count": 1,
@@ -1076,11 +1076,11 @@
   },
   {
     "name": "vite-javascript-starter",
-    "html_url": "https://github.com/web3sdkio-example/vite-javascript-starter",
+    "html_url": "https://github.com/web3sdkio-template/vite-javascript-starter",
     "description": "web3sdkio starter project with Vite & JavaScript",
     "created_at": "2022-03-18T17:33:24Z",
     "updated_at": "2022-11-04T16:27:00Z",
-    "clone_url": "https://github.com/web3sdkio-example/vite-javascript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/vite-javascript-starter.git",
     "topics": [
       "javascript",
       "react",
@@ -1091,15 +1091,15 @@
     "language": "JavaScript",
     "stargazers_count": 2,
     "is_template": true,
-    "homepage": "https://vite-javascript-starter.web3sdkio-example.com"
+    "homepage": "https://vite-javascript-starter.web3sdkio-template.com"
   },
   {
     "name": "vite-typescript-starter",
-    "html_url": "https://github.com/web3sdkio-example/vite-typescript-starter",
+    "html_url": "https://github.com/web3sdkio-template/vite-typescript-starter",
     "description": "web3sdkio starter project with Vite & TypeScript",
     "created_at": "2022-03-18T00:47:03Z",
     "updated_at": "2022-11-03T23:08:51Z",
-    "clone_url": "https://github.com/web3sdkio-example/vite-typescript-starter.git",
+    "clone_url": "https://github.com/web3sdkio-template/vite-typescript-starter.git",
     "topics": [
       "react",
       "reactjs",
@@ -1110,21 +1110,21 @@
     "language": "CSS",
     "stargazers_count": 4,
     "is_template": true,
-    "homepage": "https://vite-typescript-starter.web3sdkio-example.com"
+    "homepage": "https://vite-typescript-starter.web3sdkio-template.com"
   },
   {
     "name": "web3button",
-    "html_url": "https://github.com/web3sdkio-example/web3button",
+    "html_url": "https://github.com/web3sdkio-template/web3button",
     "description": "Learn how to use the Web3Button component from the web3sdkio React SDK!",
     "created_at": "2022-08-20T00:27:11Z",
     "updated_at": "2022-10-08T18:54:44Z",
-    "clone_url": "https://github.com/web3sdkio-example/web3button.git",
+    "clone_url": "https://github.com/web3sdkio-template/web3button.git",
     "topics": [
       "ui-components"
     ],
     "language": "JavaScript",
     "stargazers_count": 10,
     "is_template": false,
-    "homepage": "https://web3button.web3sdkio-example.com/"
+    "homepage": "https://web3button.web3sdkio-template.com/"
   }
 ]

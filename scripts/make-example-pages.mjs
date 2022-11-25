@@ -27,7 +27,7 @@ async function makeExamplePages(repos) {
 
   await Promise.all(
     repos.map(async (repo) => {
-      const url = `https://raw.githubusercontent.com/web3sdkio-example/${repo.name}/main/README.md`;
+      const url = `https://raw.githubusercontent.com/web3sdkio-template/${repo.name}/main/README.md`;
 
       const response = await fetch(url);
       const text = await response.text();
