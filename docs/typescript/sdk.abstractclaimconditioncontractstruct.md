@@ -12,7 +12,7 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type AbstractClaimConditionContractStruct = {
+export declare type AbstractClaimConditionContractStruct = {
   startTimestamp: BigNumberish;
   maxClaimableSupply: BigNumberish;
   supplyClaimed: BigNumberish;

@@ -12,7 +12,7 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type ClaimOptions = {
+export declare type ClaimOptions = {
   pricePerToken?: Price;
   currencyAddress?: string;
   checkERC20Allowance?: boolean;

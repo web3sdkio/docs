@@ -16,7 +16,7 @@ The params for the [useClaimNFT()](./react.useclaimnft.md) hook mutation.
 **Signature:**
 
 ```typescript
-export type ClaimNFTParams = {
+export declare type ClaimNFTParams = {
   to?: WalletAddress;
   quantity: BigNumberish;
   options?: ClaimOptions;

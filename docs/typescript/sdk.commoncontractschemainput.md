@@ -12,5 +12,7 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type CommonContractSchemaInput = z.input<typeof CommonContractSchema>;
+export declare type CommonContractSchemaInput = z.input<
+  typeof CommonContractSchema
+>;
 ```

@@ -12,7 +12,7 @@ displayed_sidebar: react
 **Signature:**
 
 ```typescript
-export type BuyNowParams<TListingType = ListingType> =
+export declare type BuyNowParams<TListingType = ListingType> =
   TListingType extends ListingType.Direct
     ? {
         id: BigNumberish;

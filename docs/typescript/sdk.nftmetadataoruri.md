@@ -12,5 +12,5 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type NFTMetadataOrUri = z.input<typeof NFTInputOrUriSchema>;
+export declare type NFTMetadataOrUri = z.input<typeof NFTInputOrUriSchema>;
 ```

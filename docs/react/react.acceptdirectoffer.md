@@ -12,7 +12,7 @@ displayed_sidebar: react
 **Signature:**
 
 ```typescript
-export type AcceptDirectOffer = {
+export declare type AcceptDirectOffer = {
   listingId: BigNumberish;
   addressOfOfferor: string;
 };

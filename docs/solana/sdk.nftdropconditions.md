@@ -12,7 +12,7 @@ displayed_sidebar: solana
 **Signature:**
 
 ```typescript
-export type NFTDropConditions = z.output<
+export declare type NFTDropConditions = z.output<
   typeof NFTDropUpdateableConditionsOutputSchema
 >;
 ```

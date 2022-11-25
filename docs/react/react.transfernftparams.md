@@ -16,7 +16,7 @@ The params to pass to `useTransferNFT`.
 **Signature:**
 
 ```typescript
-export type TransferNFTParams = {
+export declare type TransferNFTParams = {
   to: WalletAddress;
   tokenId: BigNumberish;
   amount?: Amount;

@@ -14,14 +14,8 @@ Get the metadata for all the claimed NFTs on this drop
 **Signature:**
 
 ```typescript
-getAllClaimed(queryParams?: QueryAllParams): Promise<NFT[]>;
+getAllClaimed(): Promise<NFT[]>;
 ```
-
-## Parameters
-
-| Parameter   | Type           | Description       |
-| ----------- | -------------- | ----------------- |
-| queryParams | QueryAllParams | <i>(Optional)</i> |
 
 **Returns:**
 

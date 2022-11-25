@@ -12,7 +12,7 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type ShardData = {
+export declare type ShardData = {
   proofs: string[];
   entries: SnapshotEntry[];
 };

@@ -14,7 +14,7 @@ Represents a ERC721 NFT that can be wrapped
 **Signature:**
 
 ```typescript
-export type ERC721Wrappable = {
+export declare type ERC721Wrappable = {
   contractAddress: string;
   tokenId: BigNumberish;
 };

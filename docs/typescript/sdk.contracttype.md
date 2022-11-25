@@ -12,7 +12,7 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type ContractType = keyof ContractsMap;
+export declare type ContractType = keyof ContractsMap;
 ```
 
 **References:** [ContractsMap](./sdk.contractsmap.md)

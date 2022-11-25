@@ -58,6 +58,5 @@ featureName: "ERC1155" |
   "PermissionsEnumerable" |
   "ContractMetadata" |
   "AppURI" |
-  "Ownable" |
-  "Gasless";
+  "Ownable";
 ```

@@ -16,7 +16,7 @@ The params for the [useRevealLazyMint()](./react.usereveallazymint.md) hook muta
 **Signature:**
 
 ```typescript
-export type RevealLazyMintInput = {
+export declare type RevealLazyMintInput = {
   batchId: BigNumberish;
   password: string;
 };

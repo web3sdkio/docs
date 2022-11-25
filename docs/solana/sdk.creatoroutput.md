@@ -12,7 +12,7 @@ displayed_sidebar: solana
 **Signature:**
 
 ```typescript
-export type CreatorOutput = Omit<Creator, "address"> & {
+export declare type CreatorOutput = Omit<Creator, "address"> & {
   readonly address: string;
 };
 ```

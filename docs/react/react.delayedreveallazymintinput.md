@@ -16,7 +16,7 @@ The params for the [useDelayedRevealLazyMint()](./react.usedelayedreveallazymint
 **Signature:**
 
 ```typescript
-export type DelayedRevealLazyMintInput = {
+export declare type DelayedRevealLazyMintInput = {
   placeholder: NFTMetadataInput;
   metadatas: NFTMetadataInput[];
   password: string;

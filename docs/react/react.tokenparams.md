@@ -16,7 +16,7 @@ The parameters to pass to the mint and transfer functions.
 **Signature:**
 
 ```typescript
-export type TokenParams = {
+export declare type TokenParams = {
   to: WalletAddress;
   amount: Amount;
 };

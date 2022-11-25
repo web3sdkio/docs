@@ -16,7 +16,7 @@ The options to be passed as the second parameter to the [useClaimIneligibilityRe
 **Signature:**
 
 ```typescript
-export type ClaimIneligibilityParams = {
+export declare type ClaimIneligibilityParams = {
   walletAddress: WalletAddress;
   quantity: string | number;
 };

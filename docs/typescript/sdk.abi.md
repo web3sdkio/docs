@@ -12,5 +12,5 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type Abi = z.input<typeof AbiSchema>;
+export declare type Abi = z.input<typeof AbiSchema>;
 ```

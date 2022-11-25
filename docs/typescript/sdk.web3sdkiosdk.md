@@ -40,7 +40,6 @@ export declare class Web3sdkioSDK extends RPCConnectionHandler
 | -------------------------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------- |
 | [fromPrivateKey(privateKey, network, options, storage)](./sdk.web3sdkiosdk.fromprivatekey.md) | <code>static</code> | **<i>(BETA)</i>** Get an instance of the web3sdkio SDK based on a private key.            |
 | [fromSigner(signer, network, options, storage)](./sdk.web3sdkiosdk.fromsigner.md)             | <code>static</code> | **<i>(BETA)</i>** Get an instance of the web3sdkio SDK based on an existing ethers signer |
-| [fromWallet(wallet, network, options, storage)](./sdk.web3sdkiosdk.fromwallet.md)             | <code>static</code> | **<i>(BETA)</i>** Get an instance of the web3sdkio SDK based on an AbstractWallet         |
 | [getBalance(address)](./sdk.web3sdkiosdk.getbalance.md)                                       |                     | Get the native balance of a given address (wallet or contract)                           |
 | [getContract(address)](./sdk.web3sdkiosdk.getcontract.md)                                     |                     | Get an instance of a Custom Web3sdkioContract                                             |
 | [getContract(address, contractType)](./sdk.web3sdkiosdk.getcontract_1.md)                     |                     | Get an instance of a Custom Web3sdkioContract                                             |

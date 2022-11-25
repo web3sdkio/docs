@@ -16,7 +16,7 @@ The return type of the [useClaimNFT()](./react.useclaimnft.md) hook.
 **Signature:**
 
 ```typescript
-export type ClaimNFTReturnType =
+export declare type ClaimNFTReturnType =
   | Awaited<ReturnType<Erc721["claimTo"]>>
   | Awaited<ReturnType<Erc1155["claimTo"]>>;
 ```

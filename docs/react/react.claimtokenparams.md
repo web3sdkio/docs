@@ -12,7 +12,7 @@ displayed_sidebar: react
 **Signature:**
 
 ```typescript
-export type ClaimTokenParams = {
+export declare type ClaimTokenParams = {
   to: WalletAddress;
   amount: Amount;
   checkERC20Allowance?: boolean;

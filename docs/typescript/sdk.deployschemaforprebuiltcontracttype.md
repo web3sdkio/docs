@@ -12,7 +12,7 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type DeploySchemaForPrebuiltContractType<
+export declare type DeploySchemaForPrebuiltContractType<
   TContractType extends PrebuiltContractType,
 > = SchemaForPrebuiltContractType<TContractType>["deploy"];
 ```

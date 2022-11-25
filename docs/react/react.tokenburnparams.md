@@ -16,7 +16,7 @@ The parameters to pass to the burn function.
 **Signature:**
 
 ```typescript
-export type TokenBurnParams = {
+export declare type TokenBurnParams = {
   amount: Amount;
 };
 ```

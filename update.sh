@@ -4,7 +4,7 @@ git submodule foreach git checkout main
 git submodule foreach git pull origin main
 yarn install
 # go into js package and build
-cd ./submodules/web3
+cd ./submodules/js
 yarn install
 yarn build
 # generate sdk docs

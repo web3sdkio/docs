@@ -12,5 +12,5 @@ displayed_sidebar: solana
 **Signature:**
 
 ```typescript
-export type CreatorInput = z.input<typeof CreatorInputSchema>;
+export declare type CreatorInput = z.input<typeof CreatorInputSchema>;
 ```

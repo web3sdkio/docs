@@ -81,12 +81,12 @@
     },
     {
       "source": "/learn-web3sdkio/connect-to-blockchain",
-      "destination": "/getting-started",
+      "destination": "/getting-started/integrate-sdks",
       "permanent": true
     },
     {
       "source": "/learn-web3sdkio/quick-start-dev",
-      "destination": "/getting-started",
+      "destination": "/getting-started/your-first-app",
       "permanent": true
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "source": "/web3sdkio-deploy/contract-features/:match*",
-      "destination": "/contractkit/extensions/:match*"
+      "destination": "/contractkit/features/:match*"
     },
     {
       "source": "/advanced-features/signature-based-minting",
@@ -223,7 +223,7 @@
     },
     {
       "source": "/installation",
-      "destination": "/getting-started",
+      "destination": "/getting-started/deploying-contracts",
       "permanent": true
     },
     {
@@ -349,11 +349,11 @@
     },
     {
       "source": "/contracts-sdk/quickstart",
-      "destination": "/getting-started/contracts"
+      "destination": "/getting-started/creating-custom-contracts"
     },
     {
       "source": "/contracts-sdk/contract-extensions/signatureminting",
-      "destination": "/contractkit/extensions/signatureminterc721"
+      "destination": "/contractkit/features/signatureminterc721"
     },
     {
       "source": "/guides/sign-in-with-ethereum-using-web3sdkio-connectwallet",
@@ -373,11 +373,11 @@
     },
     {
       "source": "/contracts-sdk/contract-extensions",
-      "destination": "/contractkit/extensions"
+      "destination": "/contractkit/features"
     },
     {
       "source": "/contracts-sdk/contract-extensions/:match*",
-      "destination": "/contractkit/extensions/:match*"
+      "destination": "/contractkit/features/:match*"
     },
     {
       "source": "/contracts-sdk/:match*",
@@ -412,47 +412,39 @@
     },
     {
       "source": "/getting-started/deploying-contracts",
-      "destination": "/getting-started/contracts"
+      "destination": "/getting-started/creating-custom-contracts"
     },
     {
       "source": "/getting-started/configuring-contracts",
-      "destination": "/getting-started/contracts"
+      "destination": "/getting-started/creating-custom-contracts"
     },
     {
       "source": "/getting-started/creating-nfts",
-      "destination": "/getting-started/contracts"
+      "destination": "/getting-started/creating-custom-contracts"
     },
     {
-      "source": "/contractkit/extensions/contractmetadata",
+      "source": "/contractkit/features/contractmetadata",
       "destination": "/contractkit/contractmetadata"
     },
     {
-      "source": "/contractkit/extensions/ownable",
+      "source": "/contractkit/features/ownable",
       "destination": "/contractkit/ownable"
     },
     {
-      "source": "/contractkit/extensions/permissions",
+      "source": "/contractkit/features/permissions",
       "destination": "/contractkit/permissions"
     },
     {
-      "source": "/contractkit/extensions/platformfee",
+      "source": "/contractkit/features/platformfee",
       "destination": "/contractkit/platformfee"
     },
     {
-      "source": "/contractkit/extensions/primarysale",
+      "source": "/contractkit/features/primarysale",
       "destination": "/contractkit/primarysale"
     },
     {
-      "source": "/contractkit/extensions/primarysale",
+      "source": "/contractkit/features/primarysale",
       "destination": "/contractkit/primarysale"
-    },
-    {
-      "source": "/contractkit/features",
-      "destination": "/contractkit/extensions"
-    },
-    {
-      "source": "/contractkit/features/:match*",
-      "destination": "/contractkit/extensions/:match*"
     },
     {
       "source": "/create",
@@ -469,26 +461,6 @@
     {
       "source": "/sdk/ui-components",
       "destination": "/ui-components"
-    },
-    {
-      "source": "/getting-started/creating-custom-contracts",
-      "destination": "/getting-started/contracts"
-    },
-    {
-      "source": "/getting-started/building-app",
-      "destination": "/getting-started/apps"
-    },
-    {
-      "source": "/getting-started/releasing-custom-contracts",
-      "destination": "/getting-started"
-    },
-    {
-      "source": "/gaming-kit",
-      "destination": "/gamingkit"
-    },
-    {
-      "source": "/gaming-kit/:match*",
-      "destination": "/gamingkit/:match*"
     }
   ]
 }

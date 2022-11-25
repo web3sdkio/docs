@@ -29,7 +29,6 @@ export default function Component() {
 ```typescript
 export declare function useNFTs(
   program: RequiredParam<NFTCollection | NFTDrop>,
-  queryParams?: QueryAllParams,
 ): import("@tanstack/react-query").UseQueryResult<
   import("@web3sdkio/sdk").NFT[],
   unknown
@@ -38,10 +37,9 @@ export declare function useNFTs(
 
 ## Parameters
 
-| Parameter   | Type                                              | Description                               |
-| ----------- | ------------------------------------------------- | ----------------------------------------- |
-| program     | RequiredParam&lt;NFTCollection &#124; NFTDrop&gt; | The NFT program to get NFTs metadata from |
-| queryParams | QueryAllParams                                    | <i>(Optional)</i>                         |
+| Parameter | Type                                              | Description                               |
+| --------- | ------------------------------------------------- | ----------------------------------------- |
+| program   | RequiredParam&lt;NFTCollection &#124; NFTDrop&gt; | The NFT program to get NFTs metadata from |
 
 **Returns:**
 

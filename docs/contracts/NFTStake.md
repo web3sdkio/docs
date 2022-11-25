@@ -143,7 +143,7 @@ _Returns `count` of accounts that have `role`. See struct {RoleMembers}, and map
 ### getStakeInfo
 
 ```solidity
-function getStakeInfo(address _staker) external view returns (uint256[] _tokensStaked, uint256 _rewards)
+function getStakeInfo(address _staker) external view returns (uint256 _tokensStaked, uint256 _rewards)
 ```
 
 View amount staked and total rewards for a user.
@@ -156,10 +156,10 @@ View amount staked and total rewards for a user.
 
 #### Returns
 
-| Name           | Type      | Description                         |
-| -------------- | --------- | ----------------------------------- |
-| \_tokensStaked | uint256[] | List of token-ids staked by staker. |
-| \_rewards      | uint256   | Available reward amount.            |
+| Name           | Type    | Description |
+| -------------- | ------- | ----------- |
+| \_tokensStaked | uint256 | undefined   |
+| \_rewards      | uint256 | undefined   |
 
 ### grantRole
 
@@ -224,24 +224,6 @@ _Returns `true` if `account` has been granted `role`. Role restrictions can be s
 | ---- | ---- | ----------- |
 | \_0  | bool | undefined   |
 
-### indexedTokens
-
-```solidity
-function indexedTokens(uint256) external view returns (uint256)
-```
-
-#### Parameters
-
-| Name | Type    | Description |
-| ---- | ------- | ----------- |
-| \_0  | uint256 | undefined   |
-
-#### Returns
-
-| Name | Type    | Description |
-| ---- | ------- | ----------- |
-| \_0  | uint256 | undefined   |
-
 ### initialize
 
 ```solidity
@@ -261,24 +243,6 @@ _Initiliazes the contract, like a constructor._
 | \_nftCollection      | address   | undefined   |
 | \_timeUnit           | uint256   | undefined   |
 | \_rewardsPerUnitTime | uint256   | undefined   |
-
-### isIndexed
-
-```solidity
-function isIndexed(uint256) external view returns (bool)
-```
-
-#### Parameters
-
-| Name | Type    | Description |
-| ---- | ------- | ----------- |
-| \_0  | uint256 | undefined   |
-
-#### Returns
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| \_0  | bool | undefined   |
 
 ### isTrustedForwarder
 

@@ -12,5 +12,5 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type PrebuiltContractsMap = typeof PREBUILT_CONTRACTS_MAP;
+export declare type PrebuiltContractsMap = typeof PREBUILT_CONTRACTS_MAP;
 ```

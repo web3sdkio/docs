@@ -14,7 +14,7 @@ Input for wrapping any number of tokens
 **Signature:**
 
 ```typescript
-export type TokensToWrap = {
+export declare type TokensToWrap = {
   erc20Tokens?: ERC20Wrappable[];
   erc721Tokens?: ERC721Wrappable[];
   erc1155Tokens?: ERC1155Wrappable[];

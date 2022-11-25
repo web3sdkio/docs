@@ -12,7 +12,7 @@ displayed_sidebar: react
 **Signature:**
 
 ```typescript
-export type UseContractResult<
+export declare type UseContractResult<
   TContract extends ValidContractInstance = SmartContract,
 > = UseQueryResult<TContract | undefined> & {
   contract: TContract | undefined;

@@ -14,5 +14,5 @@ Currency value and display value
 **Signature:**
 
 ```typescript
-export type CurrencyValue = z.input<typeof CurrencyValueSchema>;
+export declare type CurrencyValue = z.input<typeof CurrencyValueSchema>;
 ```

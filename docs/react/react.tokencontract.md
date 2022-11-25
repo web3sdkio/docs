@@ -22,5 +22,5 @@ const { contract } = useContract(<ContractAddress>);
 **Signature:**
 
 ```typescript
-export type TokenContract = TokenDrop | Token | SmartContract | null;
+export declare type TokenContract = TokenDrop | Token | SmartContract | null;
 ```

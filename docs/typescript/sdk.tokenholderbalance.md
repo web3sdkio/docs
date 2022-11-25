@@ -14,7 +14,7 @@ A token holder address and its current balance
 **Signature:**
 
 ```typescript
-export type TokenHolderBalance = {
+export declare type TokenHolderBalance = {
   holder: string;
   balance: CurrencyValue;
 };

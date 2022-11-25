@@ -12,5 +12,5 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type LoginPayloadData = z.output<typeof LoginPayloadDataSchema>;
+export declare type LoginPayloadData = z.output<typeof LoginPayloadDataSchema>;
 ```

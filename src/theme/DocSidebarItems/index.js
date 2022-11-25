@@ -53,7 +53,7 @@ function DocSidebarItems({ items, ...props }) {
       items: [
         "EVM SDK",
         "Solana SDK",
-        "GamingKit",
+        "Gaming Kit",
         "UI Components",
         "Auth",
         "Storage",
@@ -71,14 +71,14 @@ function DocSidebarItems({ items, ...props }) {
 
   const categoryNameToIcon = {
     Auth: "auth.png",
-    ContractKit: "extensions.png",
+    "Contract Kit": "extensions.png",
     "Prebuilt Contracts": "contracts.png",
     Dashboard: "dashboard.png",
     Deploy: "deploy.png",
     Release: "release.png",
     SDK: "sdk.png",
     Solana: "sdk.png",
-    GamingKit: "sdk.png",
+    "Gaming Kit": "sdk.png",
     Storage: "storage.png",
     "UI Components": "ui.png",
   };
@@ -96,11 +96,7 @@ function DocSidebarItems({ items, ...props }) {
     }
 
     if (formatted === "Contractkit") {
-      return "ContractKit";
-    }
-
-    if (formatted === "Gamingkit") {
-      return "GamingKit";
+      return "Contract Kit";
     }
 
     // If not the word pre-built, split by dash and capitalize each word

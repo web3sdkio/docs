@@ -37,14 +37,12 @@ displayed_sidebar: solana
 
 ## Type Aliases
 
-| Type Alias                                                        | Description                                   |
-| ----------------------------------------------------------------- | --------------------------------------------- |
-| [CreatorInput](./sdk.creatorinput.md)                             |                                               |
-| [CreatorOutput](./sdk.creatoroutput.md)                           |                                               |
-| [Network](./sdk.network.md)                                       | Supported Solana networks to use the SDK with |
-| [NFTDropConditions](./sdk.nftdropconditions.md)                   |                                               |
-| [NFTDropConditionsInput](./sdk.nftdropconditionsinput.md)         |                                               |
-| [NFTDropContractInput](./sdk.nftdropcontractinput.md)             |                                               |
-| [TokenMetadataInput](./sdk.tokenmetadatainput.md)                 |                                               |
-| [UpdateCreatorInput](./sdk.updatecreatorinput.md)                 |                                               |
-| [UpdateRoyaltySettingsInput](./sdk.updateroyaltysettingsinput.md) |                                               |
+| Type Alias                                                | Description                                   |
+| --------------------------------------------------------- | --------------------------------------------- |
+| [CreatorInput](./sdk.creatorinput.md)                     |                                               |
+| [CreatorOutput](./sdk.creatoroutput.md)                   |                                               |
+| [Network](./sdk.network.md)                               | Supported Solana networks to use the SDK with |
+| [NFTDropConditions](./sdk.nftdropconditions.md)           |                                               |
+| [NFTDropConditionsInput](./sdk.nftdropconditionsinput.md) |                                               |
+| [NFTDropContractInput](./sdk.nftdropcontractinput.md)     |                                               |
+| [TokenMetadataInput](./sdk.tokenmetadatainput.md)         |                                               |

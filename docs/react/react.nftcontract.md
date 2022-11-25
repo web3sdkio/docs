@@ -22,7 +22,7 @@ const { contract } = useContract(<ContractAddress>);
 **Signature:**
 
 ```typescript
-export type NFTContract =
+export declare type NFTContract =
   | NFTCollection
   | Edition
   | Pack

@@ -14,7 +14,7 @@ Supported Solana networks to use the SDK with
 **Signature:**
 
 ```typescript
-export type Network =
+export declare type Network =
   | "devnet"
   | "testnet"
   | "mainnet-beta"

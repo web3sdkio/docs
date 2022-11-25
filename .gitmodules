@@ -4,11 +4,11 @@
 	branch = main
 [submodule "submodules/python"]
 	path = submodules/python
-	url = https://github.com/web3sdkio/python-sdk
+	url = https://github.com/web3sdkio/python-sdk.git
 	branch = main
 [submodule "submodules/go"]
 	path = submodules/go
-	url = https://github.com/web3sdkio/go-sdk
+	url = https://github.com/web3sdkio/go-sdk.git
 [submodule "submodules/web3"]
 	path = submodules/web3
-	url = https://github.com/web3sdkio/web3
+	url = https://github.com/web3sdkio/js.git

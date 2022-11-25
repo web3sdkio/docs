@@ -43,7 +43,11 @@ export declare function useUpdateCreators(
       signature: string;
     },
   unknown,
-  UpdateCreatorInput,
+  {
+    verified?: boolean | undefined;
+    address: string;
+    share: number;
+  }[],
   unknown
 >;
 ```
@@ -56,4 +60,4 @@ export declare function useUpdateCreators(
 
 **Returns:**
 
-import("@tanstack/react-query").UseMutationResult&lt;import("@web3sdkio/sdk/solana").TransactionResult\[\] \| { signature: string; }, unknown, UpdateCreatorInput, unknown&gt;
+import("@tanstack/react-query").UseMutationResult&lt;import("@web3sdkio/sdk/solana").TransactionResult\[\] \| { signature: string; }, unknown, { verified?: boolean \| undefined; address: string; share: number; }\[\], unknown&gt;

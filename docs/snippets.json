@@ -39,23 +39,6 @@
         }
       },
       {
-        "name": "fromWallet",
-        "summary": "Get an instance of the web3sdkio SDK based on an AbstractWallet\n\n",
-        "remarks": null,
-        "examples": {
-          "javascript": "import { Web3sdkioSDK } from \"@web3sdkio/sdk\"\n\nconst wallet = new AbstractWalletImplementation();\nconst sdk = await Web3sdkioSDK.fromWallet(wallet, \"mainnet\");",
-          "python": "",
-          "go": "",
-          "react": "const sdk = useSDK();\n\nimport { Web3sdkioSDK } from \"@web3sdkio/sdk\"\n\nconst wallet = new AbstractWalletImplementation();\nconst sdk = await Web3sdkioSDK.fromWallet(wallet, \"mainnet\");"
-        },
-        "reference": {
-          "javascript": "https://portal.web3sdk.io/typescript/sdk.web3sdkiosdk.fromwallet",
-          "python": "",
-          "go": "",
-          "react": "https://portal.web3sdk.io/typescript/sdk.web3sdkiosdk.fromwallet"
-        }
-      },
-      {
         "name": "getBalance",
         "summary": "Get the native balance of a given address (wallet or contract)\n\n",
         "remarks": null,

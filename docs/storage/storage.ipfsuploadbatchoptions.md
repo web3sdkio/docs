@@ -12,7 +12,7 @@ displayed_sidebar: storage
 **Signature:**
 
 ```typescript
-export type IpfsUploadBatchOptions = {
+export declare type IpfsUploadBatchOptions = {
   rewriteFileNames?: {
     fileStartNumber: number;
   };

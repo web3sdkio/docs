@@ -12,5 +12,7 @@ displayed_sidebar: typescript
 **Signature:**
 
 ```typescript
-export type AuthenticationOptions = z.input<typeof AuthenticationOptionsSchema>;
+export declare type AuthenticationOptions = z.input<
+  typeof AuthenticationOptionsSchema
+>;
 ```

@@ -38,12 +38,10 @@ export declare function useOffers(
       dataUpdatedAt: number;
       errorUpdatedAt: number;
       failureCount: number;
-      failureReason: unknown;
       errorUpdateCount: number;
       isFetched: boolean;
       isFetchedAfterMount: boolean;
       isFetching: boolean;
-      isInitialLoading: boolean;
       isPaused: boolean;
       isPlaceholderData: boolean;
       isPreviousData: boolean;
@@ -75,12 +73,10 @@ export declare function useOffers(
       dataUpdatedAt: number;
       errorUpdatedAt: number;
       failureCount: number;
-      failureReason: unknown;
       errorUpdateCount: number;
       isFetched: boolean;
       isFetchedAfterMount: boolean;
       isFetching: boolean;
-      isInitialLoading: boolean;
       isPaused: boolean;
       isPlaceholderData: boolean;
       isPreviousData: boolean;
@@ -112,12 +108,10 @@ export declare function useOffers(
       dataUpdatedAt: number;
       errorUpdatedAt: number;
       failureCount: number;
-      failureReason: unknown;
       errorUpdateCount: number;
       isFetched: boolean;
       isFetchedAfterMount: boolean;
       isFetching: boolean;
-      isInitialLoading: boolean;
       isPaused: boolean;
       isPlaceholderData: boolean;
       isPreviousData: boolean;
@@ -149,12 +143,10 @@ export declare function useOffers(
       dataUpdatedAt: number;
       errorUpdatedAt: number;
       failureCount: number;
-      failureReason: unknown;
       errorUpdateCount: number;
       isFetched: boolean;
       isFetchedAfterMount: boolean;
       isFetching: boolean;
-      isInitialLoading: boolean;
       isPaused: boolean;
       isPlaceholderData: boolean;
       isPreviousData: boolean;
@@ -185,7 +177,7 @@ export declare function useOffers(
 
 **Returns:**
 
-{ data: Record&lt;string, any&gt;\[\] \| undefined; error: unknown; isError: true; isLoading: false; isLoadingError: false; isRefetchError: true; isSuccess: false; status: "error"; dataUpdatedAt: number; errorUpdatedAt: number; failureCount: number; failureReason: unknown; errorUpdateCount: number; isFetched: boolean; isFetchedAfterMount: boolean; isFetching: boolean; isInitialLoading: boolean; isPaused: boolean; isPlaceholderData: boolean; isPreviousData: boolean; isRefetching: boolean; isStale: boolean; refetch: &lt;TPageData&gt;(options?: (import("@tanstack/react-query").RefetchOptions &amp; import("@tanstack/react-query").RefetchQueryFilters&lt;TPageData&gt;) \| undefined) =&gt; Promise&lt;import("@tanstack/react-query").QueryObserverResult&lt;import("@web3sdkio/sdk").ContractEvent&lt;Record&lt;string, any&gt;&gt;\[\], unknown&gt;&gt;; remove: () =&gt; void; fetchStatus: import("@tanstack/react-query").FetchStatus; } \| { data: Record&lt;string, any&gt;\[\] \| undefined; error: null; isError: false; isLoading: false; isLoadingError: false; isRefetchError: false; isSuccess: true; status: "success"; dataUpdatedAt: number; errorUpdatedAt: number; failureCount: number; failureReason: unknown; errorUpdateCount: number; isFetched: boolean; isFetchedAfterMount: boolean; isFetching: boolean; isInitialLoading: boolean; isPaused: boolean; isPlaceholderData: boolean; isPreviousData: boolean; isRefetching: boolean; isStale: boolean; refetch: &lt;TPageData&gt;(options?: (import("@tanstack/react-query").RefetchOptions &amp; import("@tanstack/react-query").RefetchQueryFilters&lt;TPageData&gt;) \| undefined) =&gt; Promise&lt;import("@tanstack/react-query").QueryObserverResult&lt;import("@web3sdkio/sdk").ContractEvent&lt;Record&lt;string, any&gt;&gt;\[\], unknown&gt;&gt;; remove: () =&gt; void; fetchStatus: import("@tanstack/react-query").FetchStatus; } \| { data: Record&lt;string, any&gt;\[\] \| undefined; error: unknown; isError: true; isLoading: false; isLoadingError: true; isRefetchError: false; isSuccess: false; status: "error"; dataUpdatedAt: number; errorUpdatedAt: number; failureCount: number; failureReason: unknown; errorUpdateCount: number; isFetched: boolean; isFetchedAfterMount: boolean; isFetching: boolean; isInitialLoading: boolean; isPaused: boolean; isPlaceholderData: boolean; isPreviousData: boolean; isRefetching: boolean; isStale: boolean; refetch: &lt;TPageData&gt;(options?: (import("@tanstack/react-query").RefetchOptions &amp; import("@tanstack/react-query").RefetchQueryFilters&lt;TPageData&gt;) \| undefined) =&gt; Promise&lt;import("@tanstack/react-query").QueryObserverResult&lt;import("@web3sdkio/sdk").ContractEvent&lt;Record&lt;string, any&gt;&gt;\[\], unknown&gt;&gt;; remove: () =&gt; void; fetchStatus: import("@tanstack/react-query").FetchStatus; } \| { data: Record&lt;string, any&gt;\[\] \| undefined; error: null; isError: false; isLoading: true; isLoadingError: false; isRefetchError: false; isSuccess: false; status: "loading"; dataUpdatedAt: number; errorUpdatedAt: number; failureCount: number; failureReason: unknown; errorUpdateCount: number; isFetched: boolean; isFetchedAfterMount: boolean; isFetching: boolean; isInitialLoading: boolean; isPaused: boolean; isPlaceholderData: boolean; isPreviousData: boolean; isRefetching: boolean; isStale: boolean; refetch: &lt;TPageData&gt;(options?: (import("@tanstack/react-query").RefetchOptions &amp; import("@tanstack/react-query").RefetchQueryFilters&lt;TPageData&gt;) \| undefined) =&gt; Promise&lt;import("@tanstack/react-query").QueryObserverResult&lt;import("@web3sdkio/sdk").ContractEvent&lt;Record&lt;string, any&gt;&gt;\[\], unknown&gt;&gt;; remove: () =&gt; void; fetchStatus: import("@tanstack/react-query").FetchStatus; }
+{ data: Record&lt;string, any&gt;\[\] \| undefined; error: unknown; isError: true; isLoading: false; isLoadingError: false; isRefetchError: true; isSuccess: false; status: "error"; dataUpdatedAt: number; errorUpdatedAt: number; failureCount: number; errorUpdateCount: number; isFetched: boolean; isFetchedAfterMount: boolean; isFetching: boolean; isPaused: boolean; isPlaceholderData: boolean; isPreviousData: boolean; isRefetching: boolean; isStale: boolean; refetch: &lt;TPageData&gt;(options?: (import("@tanstack/react-query").RefetchOptions &amp; import("@tanstack/react-query").RefetchQueryFilters&lt;TPageData&gt;) \| undefined) =&gt; Promise&lt;import("@tanstack/react-query").QueryObserverResult&lt;import("@web3sdkio/sdk").ContractEvent&lt;Record&lt;string, any&gt;&gt;\[\], unknown&gt;&gt;; remove: () =&gt; void; fetchStatus: import("@tanstack/react-query").FetchStatus; } \| { data: Record&lt;string, any&gt;\[\] \| undefined; error: null; isError: false; isLoading: false; isLoadingError: false; isRefetchError: false; isSuccess: true; status: "success"; dataUpdatedAt: number; errorUpdatedAt: number; failureCount: number; errorUpdateCount: number; isFetched: boolean; isFetchedAfterMount: boolean; isFetching: boolean; isPaused: boolean; isPlaceholderData: boolean; isPreviousData: boolean; isRefetching: boolean; isStale: boolean; refetch: &lt;TPageData&gt;(options?: (import("@tanstack/react-query").RefetchOptions &amp; import("@tanstack/react-query").RefetchQueryFilters&lt;TPageData&gt;) \| undefined) =&gt; Promise&lt;import("@tanstack/react-query").QueryObserverResult&lt;import("@web3sdkio/sdk").ContractEvent&lt;Record&lt;string, any&gt;&gt;\[\], unknown&gt;&gt;; remove: () =&gt; void; fetchStatus: import("@tanstack/react-query").FetchStatus; } \| { data: Record&lt;string, any&gt;\[\] \| undefined; error: unknown; isError: true; isLoading: false; isLoadingError: true; isRefetchError: false; isSuccess: false; status: "error"; dataUpdatedAt: number; errorUpdatedAt: number; failureCount: number; errorUpdateCount: number; isFetched: boolean; isFetchedAfterMount: boolean; isFetching: boolean; isPaused: boolean; isPlaceholderData: boolean; isPreviousData: boolean; isRefetching: boolean; isStale: boolean; refetch: &lt;TPageData&gt;(options?: (import("@tanstack/react-query").RefetchOptions &amp; import("@tanstack/react-query").RefetchQueryFilters&lt;TPageData&gt;) \| undefined) =&gt; Promise&lt;import("@tanstack/react-query").QueryObserverResult&lt;import("@web3sdkio/sdk").ContractEvent&lt;Record&lt;string, any&gt;&gt;\[\], unknown&gt;&gt;; remove: () =&gt; void; fetchStatus: import("@tanstack/react-query").FetchStatus; } \| { data: Record&lt;string, any&gt;\[\] \| undefined; error: null; isError: false; isLoading: true; isLoadingError: false; isRefetchError: false; isSuccess: false; status: "loading"; dataUpdatedAt: number; errorUpdatedAt: number; failureCount: number; errorUpdateCount: number; isFetched: boolean; isFetchedAfterMount: boolean; isFetching: boolean; isPaused: boolean; isPlaceholderData: boolean; isPreviousData: boolean; isRefetching: boolean; isStale: boolean; refetch: &lt;TPageData&gt;(options?: (import("@tanstack/react-query").RefetchOptions &amp; import("@tanstack/react-query").RefetchQueryFilters&lt;TPageData&gt;) \| undefined) =&gt; Promise&lt;import("@tanstack/react-query").QueryObserverResult&lt;import("@web3sdkio/sdk").ContractEvent&lt;Record&lt;string, any&gt;&gt;\[\], unknown&gt;&gt;; remove: () =&gt; void; fetchStatus: import("@tanstack/react-query").FetchStatus; }
 
 ## Remarks
 

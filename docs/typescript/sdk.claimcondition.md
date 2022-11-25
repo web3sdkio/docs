@@ -14,5 +14,7 @@ Represents a claim condition fetched from the SDK
 **Signature:**
 
 ```typescript
-export type ClaimCondition = z.output<typeof ClaimConditionOutputSchema>;
+export declare type ClaimCondition = z.output<
+  typeof ClaimConditionOutputSchema
+>;
 ```
