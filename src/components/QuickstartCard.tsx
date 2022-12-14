@@ -30,14 +30,14 @@ export default function QuickstartCard({
       target={
         openInNewTab
           ? "_blank"
-          : link.startsWith("http") && !link.includes("portal.web3sdk.io") // if the link is external, we want to open it in a new tab
+          : link.startsWith("http") && !link.includes("docs.web3sdk.io") // if the link is external, we want to open it in a new tab
           ? "_blank"
           : undefined
       }
       rel={
         openInNewTab
           ? "noopener noreferrer"
-          : link.startsWith("http") && !link.includes("portal.web3sdk.io") // if the link is external, we want to open it in a new tab
+          : link.startsWith("http") && !link.includes("docs.web3sdk.io") // if the link is external, we want to open it in a new tab
           ? "noopener noreferrer"
           : undefined
       }

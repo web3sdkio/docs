@@ -8,7 +8,7 @@ export default function FromPrivateKeyCodeTabs() {
     javascript: `import { Web3sdkioSDK } from "@web3sdkio/sdk";
 
 const sdk = Web3sdkioSDK.fromPrivateKey(
-  // Learn more about securely accessing your private key: https://portal.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
+  // Learn more about securely accessing your private key: https://docs.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
   "<your-private-key-here>",
   "mumbai", // configure this to your network
 );
@@ -18,7 +18,7 @@ const sdk = Web3sdkioSDK.fromPrivateKey(
 from web3sdkio.types.nft import NFTMetadataInput
 import os
 
-# Learn more about securely accessing your private key: https://portal.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
+# Learn more about securely accessing your private key: https://docs.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
 PRIVATE_KEY = "<your-private-key-here>"
 
 # Now you can create a new instance of the SDK with your private key
@@ -34,7 +34,7 @@ import (
 )
 
 func main() {
-    // Learn more about securely accessing your private key: https://portal.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
+    // Learn more about securely accessing your private key: https://docs.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
     privateKey := "..."
 
     // Instantiate the SDK with your privateKey

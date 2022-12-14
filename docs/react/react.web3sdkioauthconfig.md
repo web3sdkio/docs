@@ -11,7 +11,7 @@ displayed_sidebar: react
 
 > This feature is currently in beta and may change based on feedback that we receive.
 
-The configuration to use the react SDK with an \[auth\](https://portal.web3sdk.io/auth) server.
+The configuration to use the react SDK with an \[auth\](https://docs.web3sdk.io/auth) server.
 
 **Signature:**
 

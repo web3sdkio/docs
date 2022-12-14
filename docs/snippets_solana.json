@@ -15,8 +15,8 @@
           "react": "// Get the interface for your anchor program\nconst program = await sdk.getProgram(\"{{program_address}}\");"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram"
         }
       },
       {
@@ -28,8 +28,8 @@
           "react": "// Get the interface for your anchor program\nconst program = await sdk.getProgram(\"{{program_address}}\");"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram"
         }
       },
       {
@@ -41,8 +41,8 @@
           "react": "// Get the interface for your anchor program\nconst program = await sdk.getProgram(\"{{program_address}}\");"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogram"
         }
       },
       {
@@ -54,14 +54,14 @@
           "react": "import idl from \"path/to/idl.json\"\n\n// Alternatively, you can pass in your own IDL\nconst program = await sdk.getProgramWithIdl(address, idl);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogramwithidl",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogramwithidl"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogramwithidl",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.web3sdkiosdk.getprogramwithidl"
         }
       }
     ],
     "properties": [],
     "reference": {
-      "typescript": "https://portal.web3sdk.io/solana-sdk/sdk.Web3sdkioSDK"
+      "typescript": "https://docs.web3sdk.io/solana-sdk/sdk.Web3sdkioSDK"
     }
   },
   "NFTCollection": {
@@ -81,8 +81,8 @@
           "react": "// The mint address of the NFT to check the balance of\nconst nftAddress = \"...\"\n// Get the NFT balance of the currently connected wallet\nconst balance = await program.balance(nftAddress);\nconsole.log(balance);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.balance",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.balance"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.balance",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.balance"
         }
       },
       {
@@ -94,8 +94,8 @@
           "react": "// Specify the address of the wallet to get the balance of\nconst walletAddress = \"...\"\n// Specify the mint address of the NFT to get the balance of\nconst nftAddress = \"...\"\nconst balance = await program.balanceOf(walletAddress, nftAddress);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.balanceof",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.balanceof"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.balanceof",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.balanceof"
         }
       },
       {
@@ -107,8 +107,8 @@
           "react": "// Specify the address of the NFT to burn\nconst nftAddress = \"...\"\n// And send the actual burn transaction\nconst tx = await program.burn(nftAddress);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.burn",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.burn"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.burn",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.burn"
         }
       },
       {
@@ -120,8 +120,8 @@
           "react": "// Specify the mint address of the NFT to get the data of\nconst nftAddress = \"...\";\n// And get the data for the NFT\nconst nft = await program.get(nftAddress);\nconsole.log(nft.metadata.name);\nconsole.log(nft.owner);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.get",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.get"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.get",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.get"
         }
       },
       {
@@ -133,8 +133,8 @@
           "react": "import { useProgram, useNFTs } from \"@web3sdkio/react/solana\";\n\nexport default function Component() {\n  const { program } = useProgram(\"{{program_address}}\");\n  const { data: metadata, isLoading } = useNFTs(program);\n\n  return (\n    <pre>{JSON.stringify(metadata)}</pre>\n  )\n}"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.getall",
-          "react": "https://portal.web3sdk.io/react/solana/react.usenfts"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.getall",
+          "react": "https://docs.web3sdk.io/react/solana/react.usenfts"
         }
       },
       {
@@ -146,8 +146,8 @@
           "react": "const creators = await program.getCreators();\nconsole.log(creators);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.getcreators",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.getcreators"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.getcreators",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.getcreators"
         }
       },
       {
@@ -159,8 +159,8 @@
           "react": "const metadata = await program.getMetadata();\nconsole.log(metadata);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.getmetadata",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.getmetadata"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.getmetadata",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.getmetadata"
         }
       },
       {
@@ -172,8 +172,8 @@
           "react": "const royalty = await program.getRoyalty();\nconsole.log(royalty);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.getroyalty",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.getroyalty"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.getroyalty",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.getroyalty"
         }
       },
       {
@@ -185,8 +185,8 @@
           "react": "// Add the metadata of your NFT\nconst metadata = {\n  name: \"NFT #1\",\n  description: \"My first NFT!\",\n  image: readFileSync(\"files/image.jpg\"),\n  properties: [\n    {\n       name: \"coolness\",\n       value: \"very cool!\"\n    }\n  ]\n}\n\n// Then mint the new NFT and get its address\nconst address = await program.mint(metadata);\nconsole.log(address);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.mint",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.mint"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.mint",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.mint"
         }
       },
       {
@@ -198,8 +198,8 @@
           "react": "// The address of the already minted NFT\nconst nftAddress = \"...\"\n// The amount of additional NFTs to mint\nconst amount = 1;\n// Mint an additional NFT of the original NFT\nconst addresses = await program.mintAdditionalSupply(nftAddress, amount);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.mintadditionalsupply",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.mintadditionalsupply"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.mintadditionalsupply",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.mintadditionalsupply"
         }
       },
       {
@@ -211,8 +211,8 @@
           "react": "// Specify who to mint the additional NFT to\nconst to = \"...\"\n// The address of the already minted NFT\nconst nftAddress = \"...\"\n* // The amount of additional NFTs to mint\nconst amount = 1;\n// Mint an additional NFT of the original NFT\nconst addresses = await program.mintAdditionalSupplyTo(to, nftAddress, amount);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.mintadditionalsupplyto",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.mintadditionalsupplyto"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.mintadditionalsupplyto",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.mintadditionalsupplyto"
         }
       },
       {
@@ -224,8 +224,8 @@
           "react": "import { useProgram, useMintNFT } from \"@web3sdkio/react/solana\";\n\nexport default function Component() {\n  const { program } = useProgram(\"{{program_address}}\");\n  const { mutateAsync: mintNFT, isLoading, error } = useMintNFT(program);\n\n  return (\n    <button onClick={() => mintNFT({ metadata: { name: \"First NFT\" } })}>\n      Mint\n    </button>\n  )\n}"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.mintto",
-          "react": "https://portal.web3sdk.io/react/solana/react.usemintnft"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.mintto",
+          "react": "https://docs.web3sdk.io/react/solana/react.usemintnft"
         }
       },
       {
@@ -237,8 +237,8 @@
           "react": "const nftAddress = \"...\"\nconst owner = await program.ownerOf(nftAddress);\nconsole.log(owner);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.ownerof",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.ownerof"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.ownerof",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.ownerof"
         }
       },
       {
@@ -250,8 +250,8 @@
           "react": "const address = \"...\";\nconst supply = await program.supplyOf(address);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.supplyof",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.supplyof"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.supplyof",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.supplyof"
         }
       },
       {
@@ -263,14 +263,14 @@
           "react": "import { useProgram, useTransferNFT } from \"@web3sdkio/react/solana\";\n\nexport default function Component() {\n  const { program } = useProgram(\"{{program_address}}\");\n  const { mutateAsync: transfer, isLoading, error } = useTransferNFT(program);\n\n  return (\n    <button\n      onClick={() => transfer({\n        receiverAddress: \"{{wallet_address}}\",\n        tokenAddress: \"...\"\n      })}\n    >\n      Transfer\n    </button>\n  )\n}"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftcollection.transfer",
-          "react": "https://portal.web3sdk.io/react/solana/react.usetransfernft"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftcollection.transfer",
+          "react": "https://docs.web3sdk.io/react/solana/react.usetransfernft"
         }
       }
     ],
     "properties": [],
     "reference": {
-      "typescript": "https://portal.web3sdk.io/solana-sdk/sdk.NFTCollection"
+      "typescript": "https://docs.web3sdk.io/solana-sdk/sdk.NFTCollection"
     }
   },
   "Token": {
@@ -290,8 +290,8 @@
           "react": "const balance = await program.balance();\nconsole.log(balance.displayValue);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.token.balance",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.token.balance"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.token.balance",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.token.balance"
         }
       },
       {
@@ -303,8 +303,8 @@
           "react": "import { useProgram, useTokenBalance } from \"@web3sdkio/react/solana\";\n\nexport default function Component() {\n  const { program } = useProgram(\"{{program_address}}\");\n  const { data: balance, isLoading } = useTokenBalance(program, \"{{wallet_address}}\");\n\n  return (\n    <p>{balance}</p>\n  )\n}"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.token.balanceof",
-          "react": "https://portal.web3sdk.io/react/solana/react.usetokenbalance"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.token.balanceof",
+          "react": "https://docs.web3sdk.io/react/solana/react.usetokenbalance"
         }
       },
       {
@@ -316,8 +316,8 @@
           "react": "const metadata = await program.getMetadata();\nconsole.log(metadata.supply);\nconsole.log(metadata.decimals);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.token.getmetadata",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.token.getmetadata"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.token.getmetadata",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.token.getmetadata"
         }
       },
       {
@@ -329,8 +329,8 @@
           "react": "// Specify the amount of tokens to mint\nconst amount = 1;\n// And then you can mint the tokens\nconst tx = await program.mint(amount);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.token.mint",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.token.mint"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.token.mint",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.token.mint"
         }
       },
       {
@@ -342,8 +342,8 @@
           "react": "import { useProgram, useMintToken } from \"@web3sdkio/react/solana\";\n\nexport default function Component() {\n  const { program } = useProgram(\"{{program_address}}\");\n  const { mutateAsync: mint, isLoading, error } = useMintToken(program);\n\n  return (\n    <button onClick={() => mint({ to: \"{{wallet_address}}\", amount: 1 })}>\n      Mint\n    </button>\n  )\n}"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.token.mintto",
-          "react": "https://portal.web3sdk.io/react/solana/react.useminttoken"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.token.mintto",
+          "react": "https://docs.web3sdk.io/react/solana/react.useminttoken"
         }
       },
       {
@@ -355,8 +355,8 @@
           "react": "import { useProgram, useMintToken } from \"@web3sdkio/react/solana\";\n\nexport default function Component() {\n  const { program } = useProgram(\"{{program_address}}\");\n  const { data: totalSupply, isLoading } = useTokenSupply(program);\n\n  return (\n    <p>{totalSupply}</p>\n  )\n}"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.token.totalsupply",
-          "react": "https://portal.web3sdk.io/react/solana/react.usetokensupply"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.token.totalsupply",
+          "react": "https://docs.web3sdk.io/react/solana/react.usetokensupply"
         }
       },
       {
@@ -368,14 +368,14 @@
           "react": "import { useProgram, useTransferToken } from \"@web3sdkio/react/solana\";\n\nexport default function Component() {\n  const { program } = useProgram(\"{{program_address}}\");\n  const { mutateAsync: transfer, isLoading, error } = useTransferToken(program);\n\n  return (\n    <button onClick={() => transfer({ to: \"{{wallet_address}}\", amount: 1 })}>\n      Transfer\n    </button>\n  )\n}"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.token.transfer",
-          "react": "https://portal.web3sdk.io/react/solana/react.usetransfertoken"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.token.transfer",
+          "react": "https://docs.web3sdk.io/react/solana/react.usetransfertoken"
         }
       }
     ],
     "properties": [],
     "reference": {
-      "typescript": "https://portal.web3sdk.io/solana-sdk/sdk.Token"
+      "typescript": "https://docs.web3sdk.io/solana-sdk/sdk.Token"
     }
   },
   "NFTDrop": {
@@ -395,8 +395,8 @@
           "react": "// The mint address of the NFT to check the balance of\nconst nftAddress = \"...\"\n// Get the NFT balance of the currently connected wallet\nconst balance = await program.balance(nftAddress);\nconsole.log(balance);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.balance",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.balance"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.balance",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.balance"
         }
       },
       {
@@ -408,8 +408,8 @@
           "react": "// The address of the wallet to check the balance of\nconst walletAddress = \"...\"\n// The mint address of the NFT to check the balance of\nconst nftAddress = \"...\"\n// Get the actual NFT balance of the specified wallet\nconst balance = await program.balanceOf(walletAddress, nftAddress);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.balanceof",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.balanceof"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.balanceof",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.balanceof"
         }
       },
       {
@@ -421,8 +421,8 @@
           "react": "// Specify the address of the NFT to burn\nconst nftAddress = \"...\"\n// And send the actual burn transaction\nconst tx = await program.burn(nftAddress);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.burn",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.burn"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.burn",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.burn"
         }
       },
       {
@@ -434,8 +434,8 @@
           "react": "// Specify the quantity of NFTs to claim\nconst quantity = 1;\n// Claim NFTs and get their mint addresses\nconst claimedAddresses = await program.claim(quantity);\nconsole.log(\"Claimed NFT at address\", claimedAddresses[0]);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.claim",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.claim"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.claim",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.claim"
         }
       },
       {
@@ -447,8 +447,8 @@
           "react": "import { useProgram, useClaimNFT } from \"@web3sdkio/react/solana\";\n\nexport default function Component() {\n  const { program } = useProgram(\"{{program_address}}\");\n  const { mutateAsync: claim, isLoading, error } = useClaimNFT(program);\n\n  return (\n    <button onClick={() => claim({amount: 1})}>\n      Claim\n    </button>\n  )\n}"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.claimto",
-          "react": "https://portal.web3sdk.io/react/solana/react.useclaimnft"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.claimto",
+          "react": "https://docs.web3sdk.io/react/solana/react.useclaimnft"
         }
       },
       {
@@ -460,8 +460,8 @@
           "react": "// Specify the mint address of the NFT to get the data of\nconst nftAddress = \"...\";\n// And get the data for the NFT\nconst nft = await program.get(nftAddress);\n\nconsole.log(nft.name);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.get",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.get"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.get",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.get"
         }
       },
       {
@@ -473,8 +473,8 @@
           "react": "import { useProgram, useNFTs } from \"@web3sdkio/react/solana\";\n\nexport default function Component() {\n  const { program } = useProgram(\"{{program_address}}\");\n  const { data: metadata, isLoading } = useNFTs(program);\n\n  return (\n    <pre>{JSON.stringify(metadata)}</pre>\n  )\n}"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.getall",
-          "react": "https://portal.web3sdk.io/react/solana/react.usenfts"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.getall",
+          "react": "https://docs.web3sdk.io/react/solana/react.usenfts"
         }
       },
       {
@@ -486,8 +486,8 @@
           "react": "// Get all the NFTs that have already been claimed from this drop\nconst nfts = await program.getAllClaimed();\nconsole.log(nfts[0].name)"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.getallclaimed",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.getallclaimed"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.getallclaimed",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.getallclaimed"
         }
       },
       {
@@ -499,8 +499,8 @@
           "react": "const creators = await program.getCreators();\nconsole.log(creators);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.getcreators",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.getcreators"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.getcreators",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.getcreators"
         }
       },
       {
@@ -512,8 +512,8 @@
           "react": "const metadata = await program.getMetadata();\nconsole.log(metadata.name);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.getmetadata",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.getmetadata"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.getmetadata",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.getmetadata"
         }
       },
       {
@@ -525,8 +525,8 @@
           "react": "const royalty = await program.getRoyalty();\nconsole.log(royalty);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.getroyalty",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.getroyalty"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.getroyalty",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.getroyalty"
         }
       },
       {
@@ -538,8 +538,8 @@
           "react": "// Add the metadata of your NFTs\nconst metadata = [\n  {\n    name: \"NFT #1\",\n    description: \"My first NFT!\",\n    image: readFileSync(\"files/image.jpg\"),\n    properties: [\n      {\n        name: \"coolness\",\n        value: \"very cool!\"\n      }\n    ]\n  }\n];\n\n// And lazy mint NFTs to your program\nconst tx = await program.lazyMint(metadatas);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.lazymint",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.lazymint"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.lazymint",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.lazymint"
         }
       },
       {
@@ -551,8 +551,8 @@
           "react": "const nftAddress = \"...\"\nconst owner = await program.ownerOf(nftAddress);\nconsole.log(owner);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.ownerof",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.ownerof"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.ownerof",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.ownerof"
         }
       },
       {
@@ -564,8 +564,8 @@
           "react": "// Get the total number of lazy minted NFTs that have already been claimed\nconst supply = await program.totalClaimedSupply();"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.totalclaimedsupply",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.totalclaimedsupply"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.totalclaimedsupply",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.totalclaimedsupply"
         }
       },
       {
@@ -577,8 +577,8 @@
           "react": "// Get the total number of lazy minted NFTs that aren't yet claimed\nconst supply = await program.totalUnclaimedSupply();"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.totalunclaimedsupply",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.totalunclaimedsupply"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.totalunclaimedsupply",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.totalunclaimedsupply"
         }
       },
       {
@@ -590,14 +590,14 @@
           "react": "// The wallet address to transfer the NFTs to\nconst to = \"...\";\n// The mint address of the NFT to transfer\nconst nftAddress = \"...\";\nconst tx = await program.transfer(to, nftAddress);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.transfer",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.nftdrop.transfer"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.transfer",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.nftdrop.transfer"
         }
       }
     ],
     "properties": [],
     "reference": {
-      "typescript": "https://portal.web3sdk.io/solana-sdk/sdk.NFTDrop"
+      "typescript": "https://docs.web3sdk.io/solana-sdk/sdk.NFTDrop"
     }
   },
   "Program": {
@@ -617,8 +617,8 @@
           "react": "const counterAccount = Keypair.generate();\nawait program.call(\"increment\", {\n  // We need to pass in the public keys of any accounts to interact with\n  accounts: {\n    counterAccount: counterAccount.publicKey.toBase58(),\n  },\n  // As well as the arguments to pass to the data parameters\n  data: [\"...\"],\n  // And the signer of the account that will be signing the message\n  signers: [counterAccount]\n})"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.program.call",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.program.call"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.program.call",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.program.call"
         }
       },
       {
@@ -630,8 +630,8 @@
           "react": "const accountAddress = \"...\";\n// Get the counterAccount at specified address\nconst counterAccount = await program.fetch(\"counterAccount\", accountaddress);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.program.fetch",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.program.fetch"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.program.fetch",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.program.fetch"
         }
       },
       {
@@ -643,14 +643,14 @@
           "react": "const accountAddresses = [\"...\", \"...\"];\nconst counterAccounts = await program.fetchMultiple(\"counterAccount\", accountAddresses);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.program.fetchmultiple",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.program.fetchmultiple"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.program.fetchmultiple",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.program.fetchmultiple"
         }
       }
     ],
     "properties": [],
     "reference": {
-      "typescript": "https://portal.web3sdk.io/solana-sdk/sdk.Program"
+      "typescript": "https://docs.web3sdk.io/solana-sdk/sdk.Program"
     }
   },
   "UserWallet": {
@@ -669,8 +669,8 @@
           "react": "const sdk = useSDK();\n\nconst signer = Keypair.generate();\nsdk.wallet.connect(signer);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.connect",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.connect"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.connect",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.connect"
         }
       },
       {
@@ -682,8 +682,8 @@
           "react": "sdk.wallet.disconnect();"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.disconnect",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.disconnect"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.disconnect",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.disconnect"
         }
       },
       {
@@ -695,8 +695,8 @@
           "react": "const sdk = useSDK();\n\nconst address = sdk.wallet.getAddress()"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.getaddress",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.getaddress"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.getaddress",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.getaddress"
         }
       },
       {
@@ -708,8 +708,8 @@
           "react": "const sdk = useSDK();\n\nconst balance = await sdk.wallet.getBalance();\nconsole.log(balance.displayValue);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.getbalance",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.getbalance"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.getbalance",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.getbalance"
         }
       },
       {
@@ -721,14 +721,14 @@
           "react": "const sdk = useSDK();\n\nconst signer = sdk.wallet.getSigner()"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.getsigner",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.userwallet.getsigner"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.getsigner",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.userwallet.getsigner"
         }
       }
     ],
     "properties": [],
     "reference": {
-      "typescript": "https://portal.web3sdk.io/solana-sdk/sdk.UserWallet"
+      "typescript": "https://docs.web3sdk.io/solana-sdk/sdk.UserWallet"
     }
   },
   "Deployer": {
@@ -747,8 +747,8 @@
           "react": "const sdk = useSDK();\n\nconst metadata = {\n  name: \"My NFT Collection\",\n  symbol: \"NFT\",\n};\n\nconst address = await sdk.deployer.createNftCollection(metadata);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.deployer.createnftcollection",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.deployer.createnftcollection"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.deployer.createnftcollection",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.deployer.createnftcollection"
         }
       },
       {
@@ -760,8 +760,8 @@
           "react": "const sdk = useSDK();\n\nconst metadata = {\n  name: \"My NFT Drop\",\n  symbol: \"NFT\",\n  totalSupply: 5,\n};\n\nconst address = await sdk.deployer.createNftDrop(metadata);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.deployer.createnftdrop",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.deployer.createnftdrop"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.deployer.createnftdrop",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.deployer.createnftdrop"
         }
       },
       {
@@ -773,14 +773,14 @@
           "react": "const sdk = useSDK();\n\nconst metadata = {\n  name: \"My Token\",\n  symbol: \"TKN\",\n  initialSupply: 100,\n};\n\nconst address = await sdk.deployer.createToken(metadata);"
         },
         "reference": {
-          "javascript": "https://portal.web3sdk.io/solana-sdk/sdk.deployer.createtoken",
-          "react": "https://portal.web3sdk.io/solana-sdk/sdk.deployer.createtoken"
+          "javascript": "https://docs.web3sdk.io/solana-sdk/sdk.deployer.createtoken",
+          "react": "https://docs.web3sdk.io/solana-sdk/sdk.deployer.createtoken"
         }
       }
     ],
     "properties": [],
     "reference": {
-      "typescript": "https://portal.web3sdk.io/solana-sdk/sdk.Deployer"
+      "typescript": "https://docs.web3sdk.io/solana-sdk/sdk.Deployer"
     }
   }
 }

@@ -173,7 +173,7 @@ import { useWalletConnect } from "@web3sdkio/react";
 | [MediaRendererProps](./react.mediarendererprops.md)             | The props for the [MediaRenderer](./react.mediarenderer.md) component.                                              |
 | [MediaType](./react.mediatype.md)                               |                                                                                                                     |
 | [SharedMediaProps](./react.sharedmediaprops.md)                 |                                                                                                                     |
-| [Web3sdkioAuthConfig](./react.web3sdkioauthconfig.md)             | **<i>(BETA)</i>** The configuration to use the react SDK with an \[auth\](https://portal.web3sdk.io/auth) server. |
+| [Web3sdkioAuthConfig](./react.web3sdkioauthconfig.md)             | **<i>(BETA)</i>** The configuration to use the react SDK with an \[auth\](https://docs.web3sdk.io/auth) server. |
 | [Web3sdkioAuthUser](./react.web3sdkioauthuser.md)                 |                                                                                                                     |
 | [Web3sdkioNftMediaProps](./react.web3sdkionftmediaprops.md)       | The props for the [Web3sdkioNftMedia](./react.web3sdkionftmedia.md) component.                                        |
 | [Web3sdkioProviderProps](./react.web3sdkioproviderprops.md)       | The possible props for the Web3sdkioProvider.                                                                        |

@@ -43,31 +43,31 @@ export default function Web3sdkioFeatureCodeSnippet({
       label: "React",
       key: "javascript",
       syntax: "jsx",
-      docsLink: "https://portal.web3sdk.io/react",
+      docsLink: "https://docs.web3sdk.io/react",
     },
     javascript: {
       label: "Javascript",
       key: "javascript",
       syntax: "javascript",
-      docsLink: "https://portal.web3sdk.io/typescript",
+      docsLink: "https://docs.web3sdk.io/typescript",
     },
     python: {
       label: "Python",
       key: "python",
       syntax: "python",
-      docsLink: "https://portal.web3sdk.io/python",
+      docsLink: "https://docs.web3sdk.io/python",
     },
     go: {
       label: "Go",
       key: "go",
       syntax: "go",
-      docsLink: "https://portal.web3sdk.io/go",
+      docsLink: "https://docs.web3sdk.io/go",
     },
     unity: {
       label: "Unity",
       key: "unity",
       syntax: "csharp",
-      docsLink: "https://portal.web3sdk.io/unity",
+      docsLink: "https://docs.web3sdk.io/unity",
     },
   };
 

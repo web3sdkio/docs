@@ -14,7 +14,7 @@ Connect and Interact with a [Wallet](#class_web3sdkio_1_1_wallet).
 | Members | Type | Descriptions |
 | ------- | ---- | ------------ |
 | Connect | function | Connect a user's wallet via browser extension |
-| Authenticate | function | Authenticate the user by signing a payload that can be used to securely identify users. See [https://portal.web3sdk.io/auth](https://portal.web3sdk.io/auth) |
+| Authenticate | function | Authenticate the user by signing a payload that can be used to securely identify users. See [https://docs.web3sdk.io/auth](https://docs.web3sdk.io/auth) |
 | GetBalance | function | Get the balance of the connected wallet |
 | GetAddress | function | Get the connected wallet address |
 | IsConnected | function | Check if a wallet is connected |
@@ -35,7 +35,7 @@ Connect a user's wallet via browser extension
 
 **`public inline async Task< `[`LoginPayload`](docs/unity/LoginPayload.md#struct_web3sdkio_1_1_login_payload)` > `[`Authenticate`](#class_web3sdkio_1_1_wallet_1a1cc544c1534f18293e62f45abce48614)`(string domain)`**
 
-Authenticate the user by signing a payload that can be used to securely identify users. See [https://portal.web3sdk.io/auth](https://portal.web3sdk.io/auth)
+Authenticate the user by signing a payload that can be used to securely identify users. See [https://docs.web3sdk.io/auth](https://docs.web3sdk.io/auth)
 
 #### Parameters
 * `domain` The domain to authenticate to

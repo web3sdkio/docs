@@ -21,12 +21,12 @@ export default function ProductCard({ image, name, description, link }: Props) {
       }}
       href={link}
       target={
-        link.startsWith("http") && !link.includes("portal.web3sdk.io") // if the link is external, we want to open it in a new tab
+        link.startsWith("http") && !link.includes("docs.web3sdk.io") // if the link is external, we want to open it in a new tab
           ? "_blank"
           : undefined
       }
       rel={
-        link.startsWith("http") && !link.includes("portal.web3sdk.io") // if the link is external, we want to open it in a new tab
+        link.startsWith("http") && !link.includes("docs.web3sdk.io") // if the link is external, we want to open it in a new tab
           ? "noopener noreferrer"
           : undefined
       }

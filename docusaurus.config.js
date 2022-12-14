@@ -16,7 +16,7 @@ const baseUrl = process.env.BASE_URL || "/";
 const config = {
   title: "web3sdkio developer portal",
   tagline: "Get started with web3sdkio by diving into our developer portal.",
-  url: "https://portal.web3sdk.io",
+  url: "https://docs.web3sdk.io",
   baseUrl,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -243,7 +243,7 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discord.gg/web3sdkio",
+                href: "https://discord.gg/n33UhsfUKB",
               },
               {
                 label: "Twitter",
@@ -286,7 +286,7 @@ const config = {
     {
       src: "https://web3sdk.io/js/pl.js",
       defer: true,
-      "data-domain": "portal.web3sdk.io",
+      "data-domain": "docs.web3sdk.io",
       "data-api": "https://pl.web3sdk.io/api/event",
     },
   ],

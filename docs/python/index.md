@@ -13,7 +13,7 @@ displayed_sidebar: python
 <p align="center">
 <a href="https://pypi.org/project/web3sdkio-sdk/"><img src="https://img.shields.io/pypi/v/web3sdkio-sdk?color=red&logo=pypi&logoColor=red" alt="pypi version"/></a>
 <a href="https://github.com/web3sdkio/python-sdk/actions"><img alt="Build Status" src="https://github.com/web3sdkio/python-sdk/actions/workflows/tests.yml/badge.svg"/></a>
-<a href="https://discord.gg/web3sdkio"><img alt="Join our Discord!" src="https://img.shields.io/discord/834227967404146718.svg?color=7289da&label=discord&logo=discord&style=flat"/></a>
+<a href="https://discord.gg/n33UhsfUKB"><img alt="Join our Discord!" src="https://img.shields.io/discord/834227967404146718.svg?color=7289da&label=discord&logo=discord&style=flat"/></a>
 
 </p>
 <p align="center"><strong>Best in class Web3 SDK for Python 3.7+</strong></p>

@@ -11,7 +11,7 @@ displayed_sidebar: unity
 </p>
 <h1 align="center">web3sdkio Unity SDK</h1>
 <p align="center">
-<a href="https://discord.gg/web3sdkio"><img alt="Join our Discord!" src="https://img.shields.io/discord/834227967404146718.svg?color=7289da&label=discord&logo=discord&style=flat"/></a>
+<a href="https://discord.gg/n33UhsfUKB"><img alt="Join our Discord!" src="https://img.shields.io/discord/834227967404146718.svg?color=7289da&label=discord&logo=discord&style=flat"/></a>
 
 </p>
 <p align="center"><strong>Best in class Web3 SDK for Unity games</strong></p>
@@ -77,4 +77,4 @@ var address = await sdk.deployer.DeployNFTCollection(new NFTContractDeployMetada
 });
 ```
 
-See full documentation on the [web3sdkio portal](https://portal.web3sdk.io).
+See full documentation on the [web3sdkio portal](https://docs.web3sdk.io).
