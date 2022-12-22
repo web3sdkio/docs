@@ -60,7 +60,7 @@ export default function Component() {
     async (acceptedFiles: File[]) => {
       const uris = await upload({ data: acceptedFiles });
       console.log(uris);
-    }
+    },
     [upload],
   );
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
@@ -70,7 +70,7 @@ export default function Component() {
       <input {...getInputProps()} />
       <p>Drop files here to upload them to IPFS</p>
     </div>
-  )
+  );
 }
 ```
 

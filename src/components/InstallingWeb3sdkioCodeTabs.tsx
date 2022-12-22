@@ -10,6 +10,7 @@ export default function Web3sdkioCodeSnippet() {
     python: `pip install web3sdkio-sdk`,
     // solidity: `npm install @web3sdkio/contracts`,
     go: `go get github.com/web3sdkio/go-sdk`,
+    unity: `https://docs.web3sdk.io/gamingkit/setting-up/installation`,
   };
 
   return (

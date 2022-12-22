@@ -73,6 +73,32 @@ _Returns the version of the contract._
 | ---- | ----- | ----------- |
 | \_0  | uint8 | undefined   |
 
+### getRewardTokenBalance
+
+```solidity
+function getRewardTokenBalance() external view returns (uint256 _rewardsAvailableInContract)
+```
+
+View total rewards available in the staking contract.
+
+#### Returns
+
+| Name                         | Type    | Description |
+| ---------------------------- | ------- | ----------- |
+| \_rewardsAvailableInContract | uint256 | undefined   |
+
+### getRewardsPerUnitTime
+
+```solidity
+function getRewardsPerUnitTime() external view returns (uint256 _rewardsPerUnitTime)
+```
+
+#### Returns
+
+| Name                 | Type    | Description |
+| -------------------- | ------- | ----------- |
+| \_rewardsPerUnitTime | uint256 | undefined   |
+
 ### getRoleAdmin
 
 ```solidity
@@ -143,7 +169,7 @@ _Returns `count` of accounts that have `role`. See struct {RoleMembers}, and map
 ### getStakeInfo
 
 ```solidity
-function getStakeInfo(address _staker) external view returns (uint256 _tokensStaked, uint256 _rewards)
+function getStakeInfo(address _staker) external view returns (uint256[] _tokensStaked, uint256 _rewards)
 ```
 
 View amount staked and total rewards for a user.
@@ -156,10 +182,22 @@ View amount staked and total rewards for a user.
 
 #### Returns
 
-| Name           | Type    | Description |
-| -------------- | ------- | ----------- |
-| \_tokensStaked | uint256 | undefined   |
-| \_rewards      | uint256 | undefined   |
+| Name           | Type      | Description                         |
+| -------------- | --------- | ----------------------------------- |
+| \_tokensStaked | uint256[] | List of token-ids staked by staker. |
+| \_rewards      | uint256   | Available reward amount.            |
+
+### getTimeUnit
+
+```solidity
+function getTimeUnit() external view returns (uint256 _timeUnit)
+```
+
+#### Returns
+
+| Name       | Type    | Description |
+| ---------- | ------- | ----------- |
+| \_timeUnit | uint256 | undefined   |
 
 ### grantRole
 
@@ -224,6 +262,24 @@ _Returns `true` if `account` has been granted `role`. Role restrictions can be s
 | ---- | ---- | ----------- |
 | \_0  | bool | undefined   |
 
+### indexedTokens
+
+```solidity
+function indexedTokens(uint256) external view returns (uint256)
+```
+
+#### Parameters
+
+| Name | Type    | Description |
+| ---- | ------- | ----------- |
+| \_0  | uint256 | undefined   |
+
+#### Returns
+
+| Name | Type    | Description |
+| ---- | ------- | ----------- |
+| \_0  | uint256 | undefined   |
+
 ### initialize
 
 ```solidity
@@ -243,6 +299,24 @@ _Initiliazes the contract, like a constructor._
 | \_nftCollection      | address   | undefined   |
 | \_timeUnit           | uint256   | undefined   |
 | \_rewardsPerUnitTime | uint256   | undefined   |
+
+### isIndexed
+
+```solidity
+function isIndexed(uint256) external view returns (bool)
+```
+
+#### Parameters
+
+| Name | Type    | Description |
+| ---- | ------- | ----------- |
+| \_0  | uint256 | undefined   |
+
+#### Returns
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| \_0  | bool | undefined   |
 
 ### isTrustedForwarder
 
@@ -297,7 +371,7 @@ function nftCollection() external view returns (address)
 ### onERC721Received
 
 ```solidity
-function onERC721Received(address, address, uint256, bytes) external pure returns (bytes4)
+function onERC721Received(address, address, uint256, bytes) external view returns (bytes4)
 ```
 
 #### Parameters
@@ -362,18 +436,6 @@ _ERC20 Reward Token address. See {\_mintRewards} below._
 | Name | Type    | Description |
 | ---- | ------- | ----------- |
 | \_0  | address | undefined   |
-
-### rewardsPerUnitTime
-
-```solidity
-function rewardsPerUnitTime() external view returns (uint256)
-```
-
-#### Returns
-
-| Name | Type    | Description |
-| ---- | ------- | ----------- |
-| \_0  | uint256 | undefined   |
 
 ### setContractURI
 
@@ -460,7 +522,7 @@ function stakerAddress(uint256) external view returns (address)
 ### stakers
 
 ```solidity
-function stakers(address) external view returns (uint256 amountStaked, uint256 timeOfLastUpdate, uint256 unclaimedRewards)
+function stakers(address) external view returns (uint256 amountStaked, uint256 timeOfLastUpdate, uint256 unclaimedRewards, uint256 conditionIdOflastUpdate)
 ```
 
 #### Parameters
@@ -471,11 +533,12 @@ function stakers(address) external view returns (uint256 amountStaked, uint256 t
 
 #### Returns
 
-| Name             | Type    | Description |
-| ---------------- | ------- | ----------- |
-| amountStaked     | uint256 | undefined   |
-| timeOfLastUpdate | uint256 | undefined   |
-| unclaimedRewards | uint256 | undefined   |
+| Name                    | Type    | Description |
+| ----------------------- | ------- | ----------- |
+| amountStaked            | uint256 | undefined   |
+| timeOfLastUpdate        | uint256 | undefined   |
+| unclaimedRewards        | uint256 | undefined   |
+| conditionIdOflastUpdate | uint256 | undefined   |
 
 ### stakersArray
 
@@ -501,6 +564,8 @@ function stakersArray(uint256) external view returns (address)
 function supportsInterface(bytes4 interfaceId) external view returns (bool)
 ```
 
+_See {IERC165-supportsInterface}._
+
 #### Parameters
 
 | Name        | Type   | Description |
@@ -512,18 +577,6 @@ function supportsInterface(bytes4 interfaceId) external view returns (bool)
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | \_0  | bool | undefined   |
-
-### timeUnit
-
-```solidity
-function timeUnit() external view returns (uint256)
-```
-
-#### Returns
-
-| Name | Type    | Description |
-| ---- | ------- | ----------- |
-| \_0  | uint256 | undefined   |
 
 ### withdraw
 
@@ -540,6 +593,20 @@ _See {\_withdraw}. Override that to implement custom logic._
 | Name       | Type      | Description                 |
 | ---------- | --------- | --------------------------- |
 | \_tokenIds | uint256[] | List of tokens to withdraw. |
+
+### withdrawRewardTokens
+
+```solidity
+function withdrawRewardTokens(uint256 _amount) external nonpayable
+```
+
+_Admin can withdraw excess reward tokens._
+
+#### Parameters
+
+| Name     | Type    | Description |
+| -------- | ------- | ----------- |
+| \_amount | uint256 | undefined   |
 
 ## Events
 
@@ -567,6 +634,20 @@ event Initialized(uint8 version)
 | Name    | Type  | Description |
 | ------- | ----- | ----------- |
 | version | uint8 | undefined   |
+
+### RewardTokensWithdrawnByAdmin
+
+```solidity
+event RewardTokensWithdrawnByAdmin(uint256 _amount)
+```
+
+_Emitted when contract admin withdraws reward tokens._
+
+#### Parameters
+
+| Name     | Type    | Description |
+| -------- | ------- | ----------- |
+| \_amount | uint256 | undefined   |
 
 ### RewardsClaimed
 

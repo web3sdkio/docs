@@ -51,6 +51,22 @@ func main() {
 
 	fmt.Println("New SDK instance create on chain", chainId)
 }`,
+
+    unity: `using UnityEngine;
+using Web3sdkio; // 1. Import the Web3sdkioSDK
+
+public class DemoClass : MonoBehaviour
+{
+    // 2. Create a Web3sdkioSDK instance for us to use throughout the class
+    private Web3sdkioSDK sdk;
+
+    void Start()
+    {
+        // 3. When the app starts, set up the Web3sdkioSDK
+        // Below, we're setting up a read-only instance on the "goerli" test network.
+        sdk = new Web3sdkioSDK("goerli");
+    }
+}`,
   };
 
   // TODO import this from const or smthn
@@ -60,6 +76,7 @@ func main() {
     react: "jsx",
     solidity: "solidity",
     go: "go",
+    unity: "csharp",
   };
 
   return (

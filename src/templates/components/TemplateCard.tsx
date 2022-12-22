@@ -199,7 +199,7 @@ export default function TemplateCard({ t }: Props) {
         <CodeBlock
           language={"console"}
           className="template-code"
-        >{`npx web3sdkio create -t ${t.name}`}</CodeBlock>
+        >{`npx web3sdkio@latest create -t ${t.name}`}</CodeBlock>
 
         <div
           className="button-container always-row"

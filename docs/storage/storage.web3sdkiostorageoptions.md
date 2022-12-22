@@ -12,7 +12,7 @@ displayed_sidebar: storage
 **Signature:**
 
 ```typescript
-export declare type Web3sdkioStorageOptions<T extends UploadOptions> = {
+export type Web3sdkioStorageOptions<T extends UploadOptions> = {
   uploader?: IStorageUploader<T>;
   downloader?: IStorageDownloader;
   gatewayUrls?: GatewayUrls;

@@ -1,11 +1,11 @@
 ---
-slug: /IStaking
-title: IStaking
+slug: /IStaking20
+title: IStaking20
 hide_title: true
 displayed_sidebar: contracts
 ---
 
-# IStaking
+# IStaking20
 
 ## Methods
 
@@ -41,30 +41,30 @@ View amount staked and total rewards for a user.
 ### stake
 
 ```solidity
-function stake(uint256[] tokenIds) external nonpayable
+function stake(uint256 amount) external nonpayable
 ```
 
 Stake ERC721 Tokens.
 
 #### Parameters
 
-| Name     | Type      | Description              |
-| -------- | --------- | ------------------------ |
-| tokenIds | uint256[] | List of tokens to stake. |
+| Name   | Type    | Description      |
+| ------ | ------- | ---------------- |
+| amount | uint256 | Amount to stake. |
 
 ### withdraw
 
 ```solidity
-function withdraw(uint256[] tokenIds) external nonpayable
+function withdraw(uint256 amount) external nonpayable
 ```
 
 Withdraw staked tokens.
 
 #### Parameters
 
-| Name     | Type      | Description                 |
-| -------- | --------- | --------------------------- |
-| tokenIds | uint256[] | List of tokens to withdraw. |
+| Name   | Type    | Description         |
+| ------ | ------- | ------------------- |
+| amount | uint256 | Amount to withdraw. |
 
 ## Events
 
@@ -86,47 +86,64 @@ _Emitted when a staker claims staking rewards._
 ### TokensStaked
 
 ```solidity
-event TokensStaked(address indexed staker, uint256[] indexed tokenIds)
+event TokensStaked(address indexed staker, uint256 amount)
 ```
 
-_Emitted when a set of token-ids are staked._
+_Emitted when tokens are staked._
 
 #### Parameters
 
-| Name               | Type      | Description |
-| ------------------ | --------- | ----------- |
-| staker `indexed`   | address   | undefined   |
-| tokenIds `indexed` | uint256[] | undefined   |
+| Name             | Type    | Description |
+| ---------------- | ------- | ----------- |
+| staker `indexed` | address | undefined   |
+| amount           | uint256 | undefined   |
 
 ### TokensWithdrawn
 
 ```solidity
-event TokensWithdrawn(address indexed staker, uint256[] indexed tokenIds)
+event TokensWithdrawn(address indexed staker, uint256 amount)
 ```
 
-_Emitted when a set of staked token-ids are withdrawn._
+_Emitted when a tokens are withdrawn._
 
 #### Parameters
 
-| Name               | Type      | Description |
-| ------------------ | --------- | ----------- |
-| staker `indexed`   | address   | undefined   |
-| tokenIds `indexed` | uint256[] | undefined   |
+| Name             | Type    | Description |
+| ---------------- | ------- | ----------- |
+| staker `indexed` | address | undefined   |
+| amount           | uint256 | undefined   |
 
-### UpdatedRewardsPerUnitTime
+### UpdatedMinStakeAmount
 
 ```solidity
-event UpdatedRewardsPerUnitTime(uint256 oldRewardsPerUnitTime, uint256 newRewardsPerUnitTime)
+event UpdatedMinStakeAmount(uint256 oldAmount, uint256 newAmount)
+```
+
+_Emitted when contract admin updates minimum staking amount._
+
+#### Parameters
+
+| Name      | Type    | Description |
+| --------- | ------- | ----------- |
+| oldAmount | uint256 | undefined   |
+| newAmount | uint256 | undefined   |
+
+### UpdatedRewardRatio
+
+```solidity
+event UpdatedRewardRatio(uint256 oldNumerator, uint256 newNumerator, uint256 oldDenominator, uint256 newDenominator)
 ```
 
 _Emitted when contract admin updates rewardsPerUnitTime._
 
 #### Parameters
 
-| Name                  | Type    | Description |
-| --------------------- | ------- | ----------- |
-| oldRewardsPerUnitTime | uint256 | undefined   |
-| newRewardsPerUnitTime | uint256 | undefined   |
+| Name           | Type    | Description |
+| -------------- | ------- | ----------- |
+| oldNumerator   | uint256 | undefined   |
+| newNumerator   | uint256 | undefined   |
+| oldDenominator | uint256 | undefined   |
+| newDenominator | uint256 | undefined   |
 
 ### UpdatedTimeUnit
 

@@ -86,12 +86,15 @@ displayed_sidebar: typescript
 
 ## Functions
 
-| Function                                                              | Description                                |
-| --------------------------------------------------------------------- | ------------------------------------------ |
-| [getContractName(type)](./sdk.getcontractname.md)                     |                                            |
-| [getNativeTokenByChainId(chainId)](./sdk.getnativetokenbychainid.md)  | Returns the native token for a given chain |
-| [getReadOnlyProvider(network, chainId)](./sdk.getreadonlyprovider.md) |                                            |
-| [isDowngradeVersion(current, next)](./sdk.isdowngradeversion.md)      |                                            |
+| Function                                                               | Description                                       |
+| ---------------------------------------------------------------------- | ------------------------------------------------- |
+| [getAllDetectedFeatureNames(abi)](./sdk.getalldetectedfeaturenames.md) | Return all the detected features names in the abi |
+| [getAllDetectedFeatures(abi)](./sdk.getalldetectedfeatures.md)         | Return all the detected features in the abi       |
+| [getContractName(type)](./sdk.getcontractname.md)                      |                                                   |
+| [getNativeTokenByChainId(chainId)](./sdk.getnativetokenbychainid.md)   | Returns the native token for a given chain        |
+| [getReadOnlyProvider(network, chainId)](./sdk.getreadonlyprovider.md)  |                                                   |
+| [getRpcUrl(network, apikey)](./sdk.getrpcurl.md)                       |                                                   |
+| [isDowngradeVersion(current, next)](./sdk.isdowngradeversion.md)       |                                                   |
 
 ## Interfaces
 
@@ -113,7 +116,6 @@ displayed_sidebar: typescript
 | [Proposal](./sdk.proposal.md)                                                   |                                                                                                          |
 | [ProposalExecutable](./sdk.proposalexecutable.md)                               |                                                                                                          |
 | [ProposalVote](./sdk.proposalvote.md)                                           |                                                                                                          |
-| [QueryAllParams](./sdk.queryallparams.md)                                       | Pagination Parameters                                                                                    |
 | [SplitContractDeployMetadata](./sdk.splitcontractdeploymetadata.md)             | Options for deploying Split contract                                                                     |
 | [SplitRecipient](./sdk.splitrecipient.md)                                       | The SplitRecipient type represents a recipient of some royalty, indicated by their split percentage.     |
 | [SplitRecipientInput](./sdk.splitrecipientinput.md)                             |                                                                                                          |
@@ -231,6 +233,7 @@ displayed_sidebar: typescript
 | [PublishedContract](./sdk.publishedcontract.md)                                         |                                                                                      |
 | [PublishedContractFetched](./sdk.publishedcontractfetched.md)                           |                                                                                      |
 | [PublishedMetadata](./sdk.publishedmetadata.md)                                         |                                                                                      |
+| [QueryAllParams](./sdk.queryallparams.md)                                               | Pagination Parameters                                                                |
 | [Role](./sdk.role.md)                                                                   |                                                                                      |
 | [SchemaForPrebuiltContractType](./sdk.schemaforprebuiltcontracttype.md)                 |                                                                                      |
 | [SDKOptions](./sdk.sdkoptions.md)                                                       | All these configuration options are optional with sane defaults:                     |

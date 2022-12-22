@@ -130,7 +130,7 @@ hide_title: true
     "\n" +
     "```jsx" +
     "\n" +
-    "npx web3sdkio create --template " +
+    "npx web3sdkio@latest create --template " +
     page.name +
     "\n" +
     "```";
